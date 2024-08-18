@@ -1,0 +1,6598 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.body2{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+@font-face {
+    font-family: "bolon";
+    src: url("font/Baloo_Thambi/BalooThambi2-VariableFont_wght.ttf") format("truetype");
+}
+
+header{
+    margin-bottom: 25px;
+    margin-top: 5px;
+    
+    
+}
+
+.logo-header{
+    cursor: pointer;
+    position: relative;
+    left: -120px;
+    width: 200px;
+
+}
+
+.logo-img-header{
+    width: 200px;
+}
+
+.container-header{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    max-width: 1500px;
+}
+/* Container dos Botões*/
+.botoes-header{
+    position: relative;
+    left: 120px;
+    top: 40%;
+    margin-right: 10px;
+}
+/* todos os botôes do header*/
+.but-cadastro-header,.but-social-header,.but-quem-somos-header{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #E86B27;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s all ease;
+}
+/* config botões*/
+.but-cadastro-header:hover,.but-social-header:hover,.but-quem-somos-header:hover{
+    background-color:  white;
+    color: #E86B27;
+}
+
+.car{
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+/*sessão dos botões pet */
+.container-section-pets{
+
+    display:flex;
+    justify-content: center;
+}
+
+.section-pet-cachorro,.section-pet-gato,.section-pet-peixe,.section-pet-casa{
+
+    margin: 10px;
+    position: relative;
+    left: -10px;
+    cursor: pointer;
+}
+
+
+
+/* Imagem e Texto do main */
+
+.section-main-parte-1{
+    
+    margin: auto;
+    width: 100%;
+}
+
+.container-main-parte-1{
+    position: relative;
+    background-image: url('template/semi-template.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    width: 100%;
+}
+
+.section-h2-parte-1{
+    position: absolute;
+   font-family: 'bolon', Arial, Helvetica, sans-serif;
+   font-size: 50px;
+   left: 120px;
+   top: 40px;
+   color: white;
+}
+
+.section-h1-parte-1{
+    position: absolute;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    left: 120px;
+    top: 200px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
+.section-h3-parte-1{
+    position: absolute;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    left: 120px;
+    top: 390px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
+.section-h4-parte-1{
+    position: relative;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    left: 100px;
+    top: 420px;
+    color: rgba(255, 255, 255, 0.805);
+    font-weight: bold;
+    text-align: left;
+    width: 500px;
+    line-height: 19px;
+}
+
+.list-style{
+    list-style: none;
+    padding: 10px;
+}
+.list-style,li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Marcas Empresas */
+
+.title-main-parte-2{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-parte-2::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+/* marcas */
+.marca-container-main-parte-2{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #fff;
+    
+}
+
+.logo-marca{
+    margin: 5px;
+}
+
+.img-logo-marca{
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.img-logo-marca:hover{
+    width: 220px;
+}
+
+.banner-entrega{
+    background-color:#fff;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #272524;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.sup-banner{
+    font-size: 15px;
+    
+}
+
+.number-banner{
+    color: #272524;
+    font-size: 28px;
+    margin: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    
+}
+
+/*  marca produtos */
+@import url("https://fonts.googleapis.com/css2?fam...");
+
+
+.premier-produtos,.formula-produtos,.golden-produtos,.must-produtos,.tutano-produtos,.quatree-produtos{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+    
+}
+
+h2-p{
+    color: #000;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2-p::after{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #7ac402;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.slider{
+    display: flex;
+    
+   
+    
+}
+
+.slider .card{
+   background-color: #fff;
+   border-radius: 5px;
+   margin: 1rem;
+   padding: 1rem;
+    -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.slider .card .like{
+    background-image: url("https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart.png");
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    place-self: flex-end;
+    margin-bottom: 0.3rem;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.slider .card .like:hover{
+    background-image: url("https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart-red.png");
+    
+}
+
+.slider .card img.product{
+    width: 100%;
+}
+
+.slider .card .title{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.slider .card .stars{
+    color: #ffc002;
+}
+
+.slider .card .preco{
+    display: flex;
+    gap: 10px;
+    margin: 0.5rem;
+}
+
+.slider .card .preco h5:first-child{
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #d0d2d6;
+    
+}
+
+.slider .card .preco h5:last-child{
+    font-weight: 600;
+    color: #a0a7b0;
+    font-size: 15px;
+    
+}
+
+    .slider .card a.button{
+        border: 1px solid #7ac402;
+        border-radius: 30px;
+        color: #7ac402;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s all ease;
+    }
+
+.slider .card a.button:hover{
+    background-color: #7ac402;
+    color: #fff;
+    
+}
+
+
+
+/* cadastro */
+.formimg{
+    position: relative;
+    background-image: url('template/template-cadastro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   height: 750px;
+   width: 100%;
+}
+
+.formcontainer{
+   
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+   
+    
+}
+
+.spans-requerid{
+margin-bottom: 0px;
+text-align: left;
+margin-top: 0px;
+color: #e63636;
+display: none;
+font-family: 'bolon', Arial, Helvetica, sans-serif;
+
+}
+
+input, select{
+    font-family: 'bolon', Arial, Helvetica, sans-serif;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    
+    margin-bottom: 20px;
+    border-radius: 10px ;
+    background-color:rgba(255, 255, 255, 0.515);
+    color:  #3b3b3bfe;
+    font-size: 17px;
+    
+} 
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    background-image: url('image/seta.PNG');
+    background-repeat: no-repeat;
+
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+input[type="submit"]{
+    
+    background-color:  #E86B27;
+    color: #fff;
+    border: 0;
+}
+
+input[type="submit"]:hover{
+    background-color:  white;
+    color: #E86B27;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+
+/* contato */
+
+.container-img-contato{
+    position: relative;
+    background-image: url('template/template-contato.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   height: 750px;
+   width: 100%;
+}
+
+.title-contato{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    color: #fff;
+}
+
+.title-contato::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+span{
+    color: #E86B27;
+}
+
+.link-contato{
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    
+}
+
+.link-maps-contato{
+    position: relative;
+    border-radius: 10%;
+    border: 0;
+}
+
+.unidade{
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: 'bolon', Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.link-whatsapp-icon-contato{
+    margin-top: 50px;
+}
+
+.link-whatsapp-icon-contato,.link-instagram-icon-contato,.link-maps-icon-contato{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    color: #fff;
+    
+}
+
+.text-centro{
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'bolon', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* animais */
+
+
+
+.container-1{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/*Raçoes*/
+
+.super-premium,.super-premium2,.super-premium3,.super-premium4,.premium-especial,.premium-especial2,.premium-especial3,.premium-especial4,.premium-especial5,.premium,.premium2,.stand,.stand2,/*Passaros*/ .mistura,.mistura2,.calopsita,.calopsita2,.coleiro,.coleiro2,.trinca-ferro,.trinca-ferro2,
+
+/*Acessorios*/
+
+.coleira,.coleira2,.coleira3,.coleira4,.coleira5,.coleira6,.coleira7,.coleira8,.coleira9,.coleira10,.coleira11,.comedouro,.comedouro2,.comedouro3,.comedouro4,.brinquedo,.brinquedo2,.brinquedo3,.casaetransporte,.casaetransporte2,  /*Passaros*/ .porta-vitamina,.porta-vitamina2,.bebedouro,.bebedouro2,.banheira,.banheira2,
+
+/*Medicamentos*/
+
+.antibiotico,.antibiotico2,.antibiotico3,.antialergico,.antialergico2,.antialergico3,.calmante,.calmante2,.vitamina,.vitamina2,.vitamina3,.vitamina4,.vitamina5,.pulga,.pulga2,.pulga3,.pulga4,.pulga5,.pulga6, /*Passaros*/ .vermifugo,.vermifugo2,
+
+/*Higiênico*/
+
+.banho,.banho2,.fralda-e-rp,.fralda-e-rp2,.escova,.escova2,.tapete,.tapete2,  /*Gato*/ .banho-a-seco,.banho-a-seco2,.caixa,.caixa2,.areia,.areia2,
+
+/*Petisco*/
+
+.sache-e-petisco,.sache-e-petisco2,.biscrok,.biscrok2,.osso,.osso2,.bifinho,.bifinho2,/*Gato*/ .bola-de-pelo,.bola-de-pelo2
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+}
+
+
+
+
+
+.title-main-cachorro{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-cachorro::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.categorias-animais{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+ 
+    
+}
+
+.card-1{
+    display: hidden;
+    
+
+}
+
+
+.categorias-racoes,.categorias-acessorios,.categorias-medicamentos,.categorias-higienicos,.categorias-petiscos{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #E86B27;
+    transition: 0.3s all ease;
+    text-align: center;
+
+}
+
+.categorias-racoes:hover,.categorias-acessorios:hover,.categorias-medicamentos:hover,.categorias-higienicos:hover,.categorias-petiscos:hover{
+  
+    transition: 0.3s all ease;
+    color: #E86B27;;
+    background-color: #fff;
+    
+
+}
+.title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+    font-size: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 30px;
+  
+}
+
+.title-medicamentos-passaro{
+    margin-left: 75px;
+  
+}
+
+    
+
+.list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+    text-align: left;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    display: none;
+   
+   
+}
+
+.list-medicamentos-passaro{
+    margin-left: 75px;
+}
+
+
+li{
+    padding: 5px;
+    color: #E86B27;
+    
+}
+
+li:hover{
+    color: #70452d;
+}
+
+    
+
+
+
+.slider-animais{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.slider-animais .card{
+   background-color: #fff;
+   border-radius: 5px;
+   margin: 8px;
+   padding: 1rem;
+  -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   width: 100%;
+   max-width: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    
+}
+
+.slider-animais .card .like{
+    background-image: url("https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart.png");
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    place-self: flex-end;
+    margin-bottom: 0.3rem;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.slider-animais .card .like:hover{
+    background-image: url("https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/master/slider-produtos-simples/assets/images/ic-heart-red.png");
+    
+}
+
+.slider-animais .card img.product{
+    width: 100%;
+}
+
+.slider-animais .card .title{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.slider-animais .card .stars{
+    color: #ffc002;
+}
+
+.slider-animais .card .preco{
+    display: flex;
+    gap: 10px;
+    margin: 0.5rem;
+}
+
+.slider-animais .card .preco h5:first-child{
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #d0d2d6;
+}
+
+.slider-animais .card .preco h5:last-child{
+    font-weight: 600;
+    color: #a0a7b0;
+    font-size: 15px;
+}
+
+.slider-animais .card a.button{
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    color: #7ac402;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.slider-animais .card a.button:hover{
+    background-color: #7ac402;
+    color: #fff;
+    
+}
+
+.guia,.peitoral,.anti-inflamatorio,.antitoxico,.antibacteriano,.antidiarreico,.vermiifugo,.sarnicida{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+    color: #000;
+}
+
+.guia::after,.peitoral::after,.anti-inflamatorio::after,.antitoxico::after,.antibacteriano::after,.antidiarreico::after,.vermiifugo::after,.sarnicida::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Footer */
+
+
+
+.container-footer{
+    position: relative;
+    margin:auto;
+    display: flex;
+    width: 100%;
+    max-width: 1900px;
+    height: 410px;
+    color: #fff;
+    background: #E86B27;
+   
+}
+
+.logo-footer{
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+
+.categorias-footer{
+    position: absolute;
+    left: 400px;
+    top: 40px;
+    font-family: 'bolon', Arial, Helvetica, sans-serif;
+}
+
+.marcas-footer{
+    position: absolute;
+    left: 650px;
+    top: 40px;
+    font-family: 'bolon', Arial, Helvetica, sans-serif;
+}
+
+.especialidades-footer{
+    position: absolute;
+    left: 800px;
+    top: 40px;
+    font-family: 'bolon', Arial, Helvetica, sans-serif;
+}
+
+.contatos-footer{
+    display:block
+}
+
+.social-whatsapp-footer{
+   position: absolute;
+   left: 1080px;
+   top: 40px;
+}
+
+.social-instagram-footer{
+   position: absolute;
+   left: 1140px;
+   top: 40px;
+}
+
+.social-google-footer{
+    position: absolute;
+    left: 1195px;
+    top: 40px;
+}
+
+.social-contato-button-footer{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: #E86B27;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s all ease;
+    position: absolute;
+    left: 1070px;
+    top: 120px;
+}
+
+.social-contato-button-footer:hover{
+    background-color: #fff;
+    color: #E86B27;
+}
+
+.img-cartao-footer{
+    position: absolute;
+    left: 88.9%;
+    top: 315px;
+}
+
+.img-cartao{
+    width: 140px;
+}
+
+.forma-pagamento-footer{
+    position: absolute;
+    left: 800px;
+    top: 250px;
+    font-family: 'bolon', Arial, Helvetica, sans-serif;
+}
+
+.bandeira-cartao-footer{
+    display: flex;
+    position: absolute;
+    left: 800px;
+    top: 290px;
+    margin-top: 10px;
+    width: 10px;
+}
+
+.developer-name-footer{
+    font-family: 'bolon', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    left: 50px;
+    top: 290px;
+}
+
+.social-contato-button-developer-footer{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #E86B27;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s all ease;
+    position: absolute;
+    left: 45px;
+    top: 30px;
+}
+
+.social-contato-button-developer-footer:hover{
+    background-color: #fff;
+    color: #E86B27;
+}
+
+/* efeito flutuante */
+
+#float{
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+
+}
+
+@keyframes float {
+    0%{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-10px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1024px ){
+
+    .logo-header{
+        cursor: pointer;
+        position: relative;
+        left: -20px;
+    
+    
+    }
+
+    .botoes-header{
+        position: relative;
+        left: 170px;
+        top: 40%;
+        margin-right: 100px;
+    }
+
+    .container-section-pets{
+
+        display:flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    
+
+    .container-main-parte-1{
+        position: relative;
+        background-image: url('template/semi-template.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 550px;
+        width: 100%;
+        max-width: 1024px;
+    }
+
+
+    .section-h2-parte-1{
+        position: absolute;
+       font-family: 'bolon', Arial, Helvetica, sans-serif;
+       font-size: 40px;
+       left: 30px;
+       top: 30px;
+       color: white;
+    }
+
+
+    .section-h1-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        left: 30px;
+        top: 150px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    .section-h3-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        left: 30px;
+        top: 310px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    
+    .section-h4-parte-1{
+        position: absolute;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        left: 10px;
+        top: 340px;
+        color: rgba(255, 255, 255, 0.845);
+    
+        font-weight: bold;
+        text-align: left;
+        width: 300px;
+        line-height: 2px;
+    
+    }
+
+
+    .marca-container-main-parte-2{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background-color: #fff;
+    }
+
+
+    
+    .img-logo-marca{
+        width: 150px;
+        cursor: pointer;
+        transition: 0.3s all ease;
+    }
+
+
+    .img-logo-marca:hover{
+        width: 200px;
+    }
+
+
+    
+    .slider .card .title{
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 22px;
+        margin: 0.2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.67);
+    }
+
+
+    
+    .slider .card a.button{
+        border: 1px solid #7ac402;
+        border-radius: 30px;
+        color: #7ac402;
+        padding: 0.8rem 1rem;
+        margin-bottom: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .slider .card{
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 1rem;
+         -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         width: 100%;
+         max-width: 280px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+         
+     }
+
+
+     .preco{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 20px;
+        
+    }
+    .preco1{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 10px;
+        display: none;
+    }
+
+
+
+    .premier-produtos,.formula-produtos,.golden-produtos,.must-produtos,.tutano-produtos,.quatree-produtos{
+        font-family: "Open Sans", sans-serif;
+        background-color: #e3eaf0;
+        color: #747d89;
+        font-size: 16px;
+        padding: 2rem 0;
+        min-height: 50vh;
+        display: none;
+        
+    }
+
+
+
+    .link-maps-contato{
+        position: relative;
+       margin-top: 150px;
+        border: 0;
+        width: 400px;
+    }
+
+    .unidade{
+      position: relative;
+      left: 30%;
+      width: 200px;
+      top: 20px;
+        font-size: 20px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        color: #E86B27;
+    }
+
+
+    
+    .link-whatsapp-icon-contato,.link-instagram-icon-contato,.link-maps-icon-contato{
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        color: #fff;
+       
+    
+    }
+
+
+    .link-whatsapp-icon-contato{
+        margin-top: 190px;
+        margin-left: 40px
+       
+    }
+
+
+
+    .link-instagram-icon-contato{
+        margin-top: 50px;
+        margin-left: 40px
+    }
+
+
+    .link-maps-icon-contato{
+        margin-top: 50px;
+        margin-left: 40px
+    }
+
+
+    .img-contato{
+        width: 5vw;
+        height: 7vh;
+    }
+
+
+
+    
+    .text-centro{
+        margin: 20px;
+        font-size: 25px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        margin-top: 1px;
+        
+    }
+
+    
+
+
+    .container-footer{
+       
+        width: 100%;
+        max-width: 1024px;
+        height: 410px;
+    }
+
+
+
+    .logo-footer{
+        position: absolute;
+        left: 30px;
+        top: 50px;
+        
+    }
+
+    .img-logo-footer{
+        width: 25vw;
+    }
+
+
+    
+    .categorias-footer{
+        position: absolute;
+        left: 34%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      
+    }
+
+
+    
+    .marcas-footer{
+        position: absolute;
+        left: 57%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+
+
+    
+    .especialidades-footer{
+        position: absolute;
+        left: 70%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+
+
+
+    .social-whatsapp-footer{
+        position: absolute;
+        left: 70%;
+        top: 150px;
+     }
+
+     .whatsapp-width{
+        width: 55px;
+     }
+     
+     .social-instagram-footer{
+        position: absolute;
+        left: 76%;
+        top: 150px;
+     }
+     
+     .social-google-footer{
+         position: absolute;
+         left: 81%;
+         top: 150px;
+     }
+     
+     .social-contato-button-footer{
+         padding: 10px;
+         padding-left: 40px;
+         padding-right: 40px;
+         margin-right: 5px;
+         font-family: "bolon", Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 20px;
+         border-radius: 30px;
+         background-color: #E86B27;
+         border: none;
+         cursor: pointer;
+         color: white;
+         transition: 0.3s all ease;
+         position: absolute;
+         left: 70.5%;
+         top: 220px;
+     }
+
+
+
+     .developer-name-footer{
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        position: absolute;
+        left: 5%;
+        top: 250px;
+        font-size: 12px;
+    }
+
+
+
+    .social-contato-button-developer-footer{
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-right: 5px;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 30px;
+        background-color: #E86B27;
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s all ease;
+        position: absolute;
+        left: 10%;
+        top: 30px;
+    }
+
+
+
+    .forma-pagamento-footer{
+        position: absolute;
+        left: 33.8%;
+        top: 290px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+    }
+
+
+
+    .bandeira-cartao-footer{
+        display: flex;
+        position: absolute;
+        left: 33.8%;
+        top: 320px;
+        margin-top: 10px;
+    }
+
+
+
+    .img-cartao-footer{
+        position: absolute;
+        left: 85.2%;
+        top: 310px;
+    }
+
+
+    .img-cartao{
+        width: 150px;
+    }
+
+
+
+    /*section animais*/
+
+    .categorias-animais{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+       
+        
+     
+        
+    }
+
+    .title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+        font-size: 18px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: 30px;
+      
+    }
+
+
+
+    .list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+        text-align: left;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 30px;
+        display: none;
+       
+       
+    }
+
+    
+
+
+    
+
+
+
+    /* animais */
+
+
+
+.container-1{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/*Raçoes*/
+
+.super-premium,.super-premium2,.premium-especial,.premium-especial2,.premium,.premium2,.stand,.stand2,/*Passaros*/ .mistura,.mistura2,.calopsita,.calopsita2,.coleiro,.coleiro2,.trinca-ferro,.trinca-ferro2,
+
+/*Acessorios*/
+
+.coleira,.coleira2,.comedouro,.comedouro2,.brinquedo,.brinquedo2,.casaetransporte,.casaetransporte2,  /*Passaros*/ .porta-vitamina,.porta-vitamina2,.bebedouro,.bebedouro2,.banheira,.banheira2,
+
+/*Medicamentos*/
+
+.antibiotico,.antibiotico2,.antialergico,.antialergico2,.calmante,.calmante2,.vitamina,.vitamina2,.pulga,.pulga2, /*Passaros*/ .vermifugo,.vermifugo2,
+
+/*Higiênico*/
+
+.banho,.banho2,.fralda-e-rp,.fralda-e-rp2,.escova,.escova2,.tapete,.tapete2,  /*Gato*/ .banho-a-seco,.banho-a-seco2,.caixa,.caixa2,.areia,.areia2,
+
+/*Petisco*/
+
+.sache-e-petisco,.sache-e-petisco2,.biscrok,.biscrok2,.osso,.osso2,.bifinho,.bifinho2,/*Gato*/ .bola-de-pelo,.bola-de-pelo2
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+}
+
+
+
+
+
+.title-main-cachorro{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-cachorro::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.categorias-animais{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+ 
+    
+}
+
+.card-1{
+    display: hidden;
+    
+
+}
+
+
+.categorias-racoes,.categorias-acessorios,.categorias-medicamentos,.categorias-higienicos,.categorias-petiscos{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #E86B27;
+    transition: 0.3s all ease;
+    text-align: center;
+
+}
+
+.categorias-racoes:hover,.categorias-acessorios:hover,.categorias-medicamentos:hover,.categorias-higienicos:hover,.categorias-petiscos:hover{
+  
+    transition: 0.3s all ease;
+    color: #E86B27;;
+    background-color: #fff;
+    
+
+}
+.title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+    font-size: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 30px;
+  
+}
+
+.title-medicamentos-passaro{
+    margin-left: 75px;
+  
+}
+
+    
+
+.list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+    text-align: left;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    display: none;
+   
+   
+}
+
+.list-medicamentos-passaro{
+    margin-left: 75px;
+}
+
+
+li{
+    padding: 5px;
+    color: #E86B27;
+    
+}
+
+li:hover{
+    color: #70452d;
+}
+
+
+.slider-animais{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.slider-animais .card .title{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0.2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.slider-animais .card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1rem;
+   -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    
+    align-items: center;
+     
+ }
+ .slider-animais .card a.button{
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    color: #7ac402;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px ){
+
+    .logo-header{
+        cursor: pointer;
+        position: relative;
+        left: -20px;
+    
+    
+    }
+
+    .botoes-header{
+        position: relative;
+        left: 120px;
+        top: 40%;
+        
+    }
+
+    .container-section-pets{
+
+        display:flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    
+
+    .container-main-parte-1{
+        position: relative;
+        background-image: url('template/semi-template.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 550px;
+        width: 100%;
+        max-width: 768px;
+    }
+
+
+    .section-h2-parte-1{
+        position: absolute;
+       font-family: 'bolon', Arial, Helvetica, sans-serif;
+       font-size: 40px;
+       left: 30px;
+       top: 30px;
+       color: white;
+    }
+
+
+    .section-h1-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        left: 30px;
+        top: 150px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    .section-h3-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        left: 30px;
+        top: 310px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    
+    .section-h4-parte-1{
+        position: absolute;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        left: 10px;
+        top: 340px;
+        color: rgba(255, 255, 255, 0.845);
+
+        font-weight: bold;
+        text-align: left;
+        width: 300px;
+        line-height: 2px;
+    
+    }
+
+
+    .marca-container-main-parte-2{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background-color: #fff;
+    }
+
+
+    
+    .img-logo-marca{
+        width: 110px;
+        cursor: pointer;
+        transition: 0.3s all ease;
+    }
+
+
+    .img-logo-marca:hover{
+        width: 150px;
+    }
+
+
+    
+    .slider .card .title{
+        padding-top: 1rem;
+        font-weight: 300;
+        font-size: 15px;
+        margin: 0.2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.67);
+    }
+
+
+    
+    .slider .card a.button{
+        border: 1px solid #7ac402;
+        border-radius: 30px;
+        color: #7ac402;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .slider .card{
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 1rem;
+         -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         width: 100%;
+         max-width: 200px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+         
+     }
+
+
+     .preco{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 15px;
+        
+    }
+    .preco1{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 10px;
+        display: none;
+    }
+
+
+
+    .premier-produtos,.formula-produtos,.golden-produtos,.must-produtos,.tutano-produtos,.quatree-produtos{
+        font-family: "Open Sans", sans-serif;
+        background-color: #e3eaf0;
+        color: #747d89;
+        font-size: 16px;
+        padding: 2rem 0;
+        min-height: 50vh;
+        display: none;
+        
+    }
+
+
+
+    .link-maps-contato{
+        position: relative;
+        margin-top: 150px;
+        border: 0;
+        width: 400px;
+    }
+
+    .unidade{
+        position: relative;
+        left: 30%;
+        width: 200px;
+        font-size: 20px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        color: #E86B27;
+        display: none;
+    }
+
+
+    
+    .link-whatsapp-icon-contato,.link-instagram-icon-contato,.link-maps-icon-contato{
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        color: #fff;
+       
+    
+    }
+
+
+    .link-whatsapp-icon-contato{
+        margin-top: 190px;
+        
+    }
+
+
+
+    .link-instagram-icon-contato{
+        margin-top: 50px;
+    }
+
+
+    .link-maps-icon-contato{
+        margin-top: 50px;
+    }
+
+
+    .img-contato{
+        width: 7vw;
+        height: 7vh;
+    }
+
+
+
+    
+    .text-centro{
+        margin: 20px;
+        font-size: 18px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    
+
+
+    .container-footer{
+       
+        width: 100%;
+        max-width: 768px;
+        height: 410px;
+    }
+
+
+
+    .logo-footer{
+        position: absolute;
+        left: 30px;
+        top: 50px;
+        
+    }
+
+    .img-logo-footer{
+        width: 25vw;
+    }
+
+
+    
+    .categorias-footer{
+        position: absolute;
+        left: 34%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      
+    }
+
+
+    
+    .marcas-footer{
+        position: absolute;
+        left: 57%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+
+
+    
+    .especialidades-footer{
+        position: absolute;
+        left: 70%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+
+
+
+    .social-whatsapp-footer{
+        position: absolute;
+        left: 70%;
+        top: 150px;
+     }
+
+     .whatsapp-width{
+        width: 55px;
+     }
+     
+     .social-instagram-footer{
+        position: absolute;
+        left: 78%;
+        top: 150px;
+     }
+     
+     .social-google-footer{
+         position: absolute;
+         left: 85%;
+         top: 150px;
+     }
+     
+     .social-contato-button-footer{
+         padding: 10px;
+         padding-left: 40px;
+         padding-right: 40px;
+         margin-right: 5px;
+         font-family: "bolon", Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 20px;
+         border-radius: 30px;
+         background-color: #E86B27;
+         border: none;
+         cursor: pointer;
+         color: white;
+         transition: 0.3s all ease;
+         position: absolute;
+         left: 70.5%;
+         top: 220px;
+     }
+
+
+
+     .developer-name-footer{
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        position: absolute;
+        left: 3%;
+        top: 250px;
+        font-size: 12px;
+    }
+
+
+
+    .social-contato-button-developer-footer{
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-right: 5px;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 30px;
+        background-color: #E86B27;
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s all ease;
+        position: absolute;
+        left: 10%;
+        top: 30px;
+    }
+
+
+
+    .forma-pagamento-footer{
+        position: absolute;
+        left: 33.8%;
+        top: 290px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+    }
+
+
+
+    .bandeira-cartao-footer{
+        display: flex;
+        position: absolute;
+        left: 33.8%;
+        top: 320px;
+        margin-top: 10px;
+    }
+
+
+
+    .img-cartao-footer{
+        position: absolute;
+        left: 80%;
+        top: 310px;
+    }
+
+
+    .img-cartao{
+        width: 150px;
+    }
+
+
+
+    /*section animais*/
+
+    .categorias-animais{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+       
+        
+     
+        
+    }
+
+    .title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+        font-size: 18px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: 30px;
+      
+    }
+
+
+
+    .list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+        text-align: left;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 30px;
+        display: none;
+       
+       
+    }
+
+    
+
+
+    
+
+
+
+    /* animais */
+
+
+
+.container-1{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/*Raçoes*/
+
+.super-premium,.super-premium2,.premium-especial,.premium-especial2,.premium,.premium2,.stand,.stand2,/*Passaros*/ .mistura,.mistura2,.calopsita,.calopsita2,.coleiro,.coleiro2,.trinca-ferro,.trinca-ferro2,
+
+/*Acessorios*/
+
+.coleira,.coleira2,.comedouro,.comedouro2,.brinquedo,.brinquedo2,.casaetransporte,.casaetransporte2,  /*Passaros*/ .porta-vitamina,.porta-vitamina2,.bebedouro,.bebedouro2,.banheira,.banheira2,
+
+/*Medicamentos*/
+
+.antibiotico,.antibiotico2,.antialergico,.antialergico2,.calmante,.calmante2,.vitamina,.vitamina2,.pulga,.pulga2, /*Passaros*/ .vermifugo,.vermifugo2,
+
+/*Higiênico*/
+
+.banho,.banho2,.fralda-e-rp,.fralda-e-rp2,.escova,.escova2,.tapete,.tapete2,  /*Gato*/ .banho-a-seco,.banho-a-seco2,.caixa,.caixa2,.areia,.areia2,
+
+/*Petisco*/
+
+.sache-e-petisco,.sache-e-petisco2,.biscrok,.biscrok2,.osso,.osso2,.bifinho,.bifinho2,/*Gato*/ .bola-de-pelo,.bola-de-pelo2
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+}
+
+
+
+
+
+.title-main-cachorro{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-cachorro::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.categorias-animais{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+ 
+    
+}
+
+.card-1{
+    display: hidden;
+    
+
+}
+
+
+.categorias-racoes,.categorias-acessorios,.categorias-medicamentos,.categorias-higienicos,.categorias-petiscos{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #E86B27;
+    transition: 0.3s all ease;
+    text-align: center;
+
+}
+
+.categorias-racoes:hover,.categorias-acessorios:hover,.categorias-medicamentos:hover,.categorias-higienicos:hover,.categorias-petiscos:hover{
+  
+    transition: 0.3s all ease;
+    color: #E86B27;;
+    background-color: #fff;
+    
+
+}
+.title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+    font-size: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 30px;
+  
+}
+
+.title-medicamentos-passaro{
+    margin-left: 75px;
+  
+}
+
+    
+
+.list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+    text-align: left;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    display: none;
+   
+   
+}
+
+.list-medicamentos-passaro{
+    margin-left: 75px;
+}
+
+
+li{
+    padding: 5px;
+    color: #E86B27;
+    
+}
+
+li:hover{
+    color: #70452d;
+}
+
+
+.slider-animais{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.slider-animais .card .title{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0.2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.slider-animais .card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1rem;
+   -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    
+    align-items: center;
+     
+ }
+ .slider-animais .card a.button{
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    color: #7ac402;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 660px ){
+    .banner-entrega{
+        font-size: 15px;
+    }
+
+    .caminhao-banner{
+        width: 70px;
+    }
+
+    
+
+    .container-header{
+        height: 80px;
+    }
+
+    .logo-header{
+        cursor: pointer;
+        position: relative;
+        left: -10px;
+        top: 10px;
+        width: 10px;
+        align-items: center;
+    }
+
+    .logo-img-header{
+        width: 150px;
+    }
+
+    .botoes-header{
+        position: relative;
+        left: 40px;
+        top: 40%;
+        margin: 0px;
+    }
+
+    .but-cadastro-header,.but-social-header,.but-quem-somos-header,.car{
+        font-size: 15px;
+    }
+
+    .container-section-pets{
+
+        display:flex;
+        justify-content: center;
+        margin-right: 10px;
+        margin: auto;
+        align-items: center;
+    }
+
+    .pets{
+        width: 70px;
+        margin: 0 10px;
+    }
+    
+
+    .container-main-parte-1{
+        position: relative;
+        background-image: url('template/semi-template.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 450px;
+        width: 100%;
+        max-width: 660px;
+    }
+
+
+    .section-h2-parte-1{
+        position: absolute;
+       font-family: 'bolon', Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       left: 30px;
+       top: 30px;
+       color: white;
+    }
+
+
+    .section-h1-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        left: 30px;
+        top: 150px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    .section-h3-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        left: 30px;
+        top: 250px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    
+    .section-h4-parte-1{
+        position: absolute;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        left: 10px;
+        top: 260px;
+        color: rgba(255, 255, 255, 0.845);
+    padding: -5px;
+        font-weight: bold;
+        text-align: left;
+        width:250px;
+        line-height: 0px;
+    
+    }
+
+
+    .marca-container-main-parte-2{
+        display: flex;
+        margin: auto;
+        padding: 5px;
+        background-color: #fff;
+       
+    }
+
+
+    
+    .img-logo-marca{
+        width: 80px;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        
+    }
+
+
+    .img-logo-marca:hover{
+        width: 100px;
+       
+    }
+
+    .title-main-parte-2{
+        font-family: 'bolon',Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+
+
+    
+    .slider .card .title{
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 15px;
+        margin: 0.2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.67);
+    }
+
+
+    
+    .slider .card a.button{
+        border: 1px solid #7ac402;
+        border-radius: 30px;
+        color: #7ac402;
+        padding: 0.r5em 1rem;
+        margin-bottom: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .slider .card{
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 1rem;
+         -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         width: 100%;
+         max-width: 150px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+         
+     }
+
+
+     .preco{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 15px;
+        
+    }
+    .preco1{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 10px;
+        display: none;
+    }
+
+
+
+    .premier-produtos,.formula-produtos,.golden-produtos,.must-produtos,.tutano-produtos,.quatree-produtos{
+        font-family: "Open Sans", sans-serif;
+        background-color: #e3eaf0;
+        color: #747d89;
+        font-size: 16px;
+        padding: 2rem 0;
+        min-height: 50vh;
+        display: none;
+        
+    }
+
+    .container-img-contato{
+        height: 500px;
+        max-width: 660px;
+    }
+
+
+    .link-maps-contato{
+        position: relative;
+       margin-top: 150px;
+        border: 0;
+        right: 1%;
+        top: 17%;
+        width: 350px;
+        height: 400px;
+    }
+
+    .unidade{
+      position: relative;
+      left: 30%;
+      width: 200px;
+      top: 20px;
+        font-size: 20px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        color: #E86B27;
+    }
+
+    .link-contatos-social{
+     display: none;
+    }
+
+
+
+
+    
+    .text-centro{
+        margin: 10px;
+        font-size: 18px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        
+        
+    }
+
+    
+
+
+    .container-footer{
+       
+        width: 100%;
+        max-width: 660px;
+        height: 410px;
+    }
+
+
+
+    .logo-footer{
+        position: absolute;
+        left: 20px;
+        top: 50px;
+        
+    }
+
+    .img-logo-footer{
+        width: 25vw;
+    }
+
+
+    
+    .categorias-footer{
+        position: absolute;
+        left: 34%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 11px;
+      
+    }
+
+
+    
+    .marcas-footer{
+        position: absolute;
+        left: 64%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+
+    
+    .especialidades-footer{
+        position: absolute;
+        left: 78%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+
+
+    .social-whatsapp-footer{
+        position: absolute;
+        left: 75%;
+        top: 225px;
+     }
+
+     .whatsapp-width,.instagram-width,.google-width{
+        width: 40px;
+     }
+     
+     .social-instagram-footer{
+        position: absolute;
+        left: 83%;
+        top: 225px;
+     }
+     
+     .social-google-footer{
+         position: absolute;
+         left: 90%;
+         top: 225px;
+     }
+     
+     .social-contato-button-footer{
+         padding: 10px;
+         padding-left: 30px;
+         padding-right: 30px;
+         margin-right: 5px;
+         font-family: "bolon", Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 20px;
+         border-radius: 30px;
+         background-color: #E86B27;
+         border: none;
+         cursor: pointer;
+         color: white;
+         transition: 0.3s all ease;
+         position: absolute;
+         left: 74%;
+         top: 270px;
+     }
+
+
+
+     .developer-name-footer{
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        position: absolute;
+        left: 2%;
+        top: 150px;
+        font-size: 8px;
+    }
+
+
+
+    .social-contato-button-developer-footer{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 5px;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 30px;
+        background-color: #E86B27;
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s all ease;
+        position: absolute;
+        left: 10%;
+        top: 30px;
+    }
+
+
+
+    .forma-pagamento-footer{
+        position: absolute;
+        left: 33.8%;
+        top: 285px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+
+
+    .bandeira-cartao-footer{
+        display: flex;
+        position: absolute;
+        left: 7%;
+        top: 330px;
+        margin-top: 10px;
+        
+    }
+
+
+
+    .img-cartao-footer{
+        position: absolute;
+        left: 86.8%;
+        top: 355px;
+    }
+
+
+    .img-cartao{
+        width: 80px;
+    }
+
+
+
+    /*section animais*/
+
+    .categorias-animais{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+        flex-wrap: wrap;
+       
+        
+     
+        
+    }
+
+    .title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+        font-size: 18px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: 30px;
+      
+    }
+
+
+
+    .list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+        text-align: left;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 30px;
+        display: none;
+       
+       
+    }
+
+    
+
+
+    
+
+
+
+    /* animais */
+
+
+
+.container-1{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/*Raçoes*/
+
+.super-premium,.super-premium2,.premium-especial,.premium-especial2,.premium,.premium2,.stand,.stand2,/*Passaros*/ .mistura,.mistura2,.calopsita,.calopsita2,.coleiro,.coleiro2,.trinca-ferro,.trinca-ferro2,
+
+/*Acessorios*/
+
+.coleira,.coleira2,.comedouro,.comedouro2,.brinquedo,.brinquedo2,.casaetransporte,.casaetransporte2,  /*Passaros*/ .porta-vitamina,.porta-vitamina2,.bebedouro,.bebedouro2,.banheira,.banheira2,
+
+/*Medicamentos*/
+
+.antibiotico,.antibiotico2,.antialergico,.antialergico2,.calmante,.calmante2,.vitamina,.vitamina2,.pulga,.pulga2, /*Passaros*/ .vermifugo,.vermifugo2,
+
+/*Higiênico*/
+
+.banho,.banho2,.fralda-e-rp,.fralda-e-rp2,.escova,.escova2,.tapete,.tapete2,  /*Gato*/ .banho-a-seco,.banho-a-seco2,.caixa,.caixa2,.areia,.areia2,
+
+/*Petisco*/
+
+.sache-e-petisco,.sache-e-petisco2,.biscrok,.biscrok2,.osso,.osso2,.bifinho,.bifinho2,/*Gato*/ .bola-de-pelo,.bola-de-pelo2
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+}
+
+
+
+
+
+.title-main-cachorro{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-cachorro::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.categorias-animais{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+ 
+    
+}
+
+.card-1{
+    display: hidden;
+    
+
+}
+
+
+.categorias-racoes,.categorias-acessorios,.categorias-medicamentos,.categorias-higienicos,.categorias-petiscos{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #E86B27;
+    transition: 0.3s all ease;
+    text-align: center;
+    
+}
+
+.categorias-racoes:hover,.categorias-acessorios:hover,.categorias-medicamentos:hover,.categorias-higienicos:hover,.categorias-petiscos:hover{
+  
+    transition: 0.3s all ease;
+    color: #E86B27;;
+    background-color: #fff;
+    
+
+}
+.title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  
+}
+
+.title-medicamentos-passaro{
+    margin-left: 75px;
+  
+}
+
+    
+
+.list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+    text-align: left;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    display: none;
+   
+   
+}
+
+.list-medicamentos-passaro{
+    margin-left: 75px;
+}
+
+
+li{
+    padding: 5px;
+    color: #E86B27;
+    
+}
+
+li:hover{
+    color: #70452d;
+}
+
+
+.slider-animais{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.slider-animais .card .title{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0.2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.slider-animais .card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1rem;
+   -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    
+    align-items: center;
+     
+ }
+ .slider-animais .card a.button{
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    color: #7ac402;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 540px ){
+
+    .banner-entrega{
+        font-size: 10px;
+    }
+
+    .caminhao-banner{
+        width: 80px;
+    }
+
+    
+
+    .container-header{
+        height: 80px;
+    }
+
+    .logo-header{
+        cursor: pointer;
+        position: relative;
+        left: -10px;
+        top: 10px;
+        width: 10px;
+        align-items: center;
+    }
+
+    .logo-img-header{
+        width: 150px;
+    }
+
+    .botoes-header{
+        position: relative;
+        left: 40px;
+        top: 40%;
+        margin: 0px;
+    }
+
+    .but-cadastro-header,.but-social-header,.but-quem-somos-header{
+        font-size: 15px;
+    }
+
+    .container-section-pets{
+
+        display:flex;
+        justify-content: center;
+        margin-right: 10px;
+        margin: auto;
+        align-items: center;
+    }
+
+    .pets{
+        width: 70px;
+        margin: 0 10px;
+    }
+    
+
+    .container-main-parte-1{
+        position: relative;
+        background-image: url('template/semi-template.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 450px;
+        width: 100%;
+        max-width: 540px;
+    }
+
+
+    .section-h2-parte-1{
+        position: absolute;
+       font-family: 'bolon', Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       left: 30px;
+       top: 30px;
+       color: white;
+    }
+
+
+    .section-h1-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        left: 30px;
+        top: 150px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    .section-h3-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        left: 30px;
+        top: 250px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    
+    .section-h4-parte-1{
+        position: absolute;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        left: 10px;
+        top: 260px;
+        color: rgba(255, 255, 255, 0.845);
+    padding: -5px;
+        font-weight: bold;
+        text-align: left;
+        width:250px;
+        line-height: 0px;
+    
+    }
+
+
+    .marca-container-main-parte-2{
+        display: flex;
+        margin: auto;
+        padding: 5px;
+        background-color: #fff;
+       
+    }
+
+
+    
+    .img-logo-marca{
+        width: 80px;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        
+    }
+
+
+    .img-logo-marca:hover{
+        width: 100px;
+       
+    }
+
+    .title-main-parte-2{
+        font-family: 'bolon',Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+
+
+    
+    .slider .card .title{
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 15px;
+        margin: 0.2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.67);
+    }
+
+
+    
+    .slider .card a.button{
+        border: 1px solid #7ac402;
+        border-radius: 30px;
+        color: #7ac402;
+        padding: 0.r5em 1rem;
+        margin-bottom: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .slider .card{
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 1rem;
+         -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         width: 100%;
+         max-width: 150px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+         
+     }
+
+
+     .preco{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 15px;
+        
+    }
+    .preco1{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 10px;
+        display: none;
+    }
+
+
+
+    .premier-produtos,.formula-produtos,.golden-produtos,.must-produtos,.tutano-produtos,.quatree-produtos{
+        font-family: "Open Sans", sans-serif;
+        background-color: #e3eaf0;
+        color: #747d89;
+        font-size: 16px;
+        padding: 2rem 0;
+        min-height: 50vh;
+        display: none;
+        
+    }
+
+    .container-img-contato{
+        height: 500px;
+        max-width: 540px;
+    }
+
+
+    .link-maps-contato{
+        position: relative;
+       margin-top: 150px;
+        border: 0;
+        right: 1%;
+        top: 17%;
+        width: 350px;
+        height: 400px;
+    }
+
+    .unidade{
+      position: relative;
+      left: 30%;
+      width: 200px;
+      top: 20px;
+        font-size: 20px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        color: #E86B27;
+    }
+
+    .link-contatos-social{
+     display: none;
+    }
+
+
+
+
+    
+    .text-centro{
+        margin: 10px;
+        font-size: 18px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        
+        
+    }
+
+    
+
+
+    .container-footer{
+       
+        width: 100%;
+        max-width: 540px;
+        height: 410px;
+    }
+
+
+
+    .logo-footer{
+        position: absolute;
+        left: 20px;
+        top: 50px;
+        
+    }
+
+    .img-logo-footer{
+        width: 25vw;
+    }
+
+
+    
+    .categorias-footer{
+        position: absolute;
+        left: 34%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 11px;
+      
+    }
+
+
+    
+    .marcas-footer{
+        position: absolute;
+        left: 64%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+
+    
+    .especialidades-footer{
+        position: absolute;
+        left: 78%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+
+
+    .social-whatsapp-footer{
+        position: absolute;
+        left: 75%;
+        top: 225px;
+     }
+
+     .whatsapp-width,.instagram-width,.google-width{
+        width: 40px;
+     }
+     
+     .social-instagram-footer{
+        position: absolute;
+        left: 83%;
+        top: 225px;
+     }
+     
+     .social-google-footer{
+         position: absolute;
+         left: 90%;
+         top: 225px;
+     }
+     
+     .social-contato-button-footer{
+         padding: 10px;
+         padding-left: 30px;
+         padding-right: 30px;
+         margin-right: 5px;
+         font-family: "bolon", Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 20px;
+         border-radius: 30px;
+         background-color: #E86B27;
+         border: none;
+         cursor: pointer;
+         color: white;
+         transition: 0.3s all ease;
+         position: absolute;
+         left: 74%;
+         top: 270px;
+     }
+
+
+
+     .developer-name-footer{
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        position: absolute;
+        left: 2%;
+        top: 150px;
+        font-size: 8px;
+    }
+
+
+
+    .social-contato-button-developer-footer{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 5px;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 30px;
+        background-color: #E86B27;
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s all ease;
+        position: absolute;
+        left: 10%;
+        top: 30px;
+    }
+
+
+
+    .forma-pagamento-footer{
+        position: absolute;
+        left: 33.8%;
+        top: 285px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+
+
+    .bandeira-cartao-footer{
+        display: flex;
+        position: absolute;
+        left: 7%;
+        top: 330px;
+        margin-top: 10px;
+        
+    }
+
+
+
+    .img-cartao-footer{
+        position: absolute;
+        left: 85%;
+        top: 355px;
+    }
+
+
+    .img-cartao{
+        width: 80px;
+    }
+
+
+
+    /*section animais*/
+
+    .categorias-animais{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+        flex-wrap: wrap;
+       
+        
+     
+        
+    }
+
+    .title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+        font-size: 18px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: 30px;
+      
+    }
+
+
+
+    .list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+        text-align: left;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 30px;
+        display: none;
+       
+       
+    }
+
+    
+
+
+    
+
+
+
+    /* animais */
+
+
+
+.container-1{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/*Raçoes*/
+
+.super-premium,.super-premium2,.premium-especial,.premium-especial2,.premium,.premium2,.stand,.stand2,/*Passaros*/ .mistura,.mistura2,.calopsita,.calopsita2,.coleiro,.coleiro2,.trinca-ferro,.trinca-ferro2,
+
+/*Acessorios*/
+
+.coleira,.coleira2,.comedouro,.comedouro2,.brinquedo,.brinquedo2,.casaetransporte,.casaetransporte2,  /*Passaros*/ .porta-vitamina,.porta-vitamina2,.bebedouro,.bebedouro2,.banheira,.banheira2,
+
+/*Medicamentos*/
+
+.antibiotico,.antibiotico2,.antialergico,.antialergico2,.calmante,.calmante2,.vitamina,.vitamina2,.pulga,.pulga2, /*Passaros*/ .vermifugo,.vermifugo2,
+
+/*Higiênico*/
+
+.banho,.banho2,.fralda-e-rp,.fralda-e-rp2,.escova,.escova2,.tapete,.tapete2,  /*Gato*/ .banho-a-seco,.banho-a-seco2,.caixa,.caixa2,.areia,.areia2,
+
+/*Petisco*/
+
+.sache-e-petisco,.sache-e-petisco2,.biscrok,.biscrok2,.osso,.osso2,.bifinho,.bifinho2,/*Gato*/ .bola-de-pelo,.bola-de-pelo2
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+}
+
+
+
+
+
+.title-main-cachorro{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-cachorro::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.categorias-animais{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+ 
+    
+}
+
+.card-1{
+    display: hidden;
+    
+
+}
+
+
+.categorias-racoes,.categorias-acessorios,.categorias-medicamentos,.categorias-higienicos,.categorias-petiscos{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #E86B27;
+    transition: 0.3s all ease;
+    text-align: center;
+    
+}
+
+.categorias-racoes:hover,.categorias-acessorios:hover,.categorias-medicamentos:hover,.categorias-higienicos:hover,.categorias-petiscos:hover{
+  
+    transition: 0.3s all ease;
+    color: #E86B27;;
+    background-color: #fff;
+    
+
+}
+.title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  
+}
+
+.title-medicamentos-passaro{
+    margin-left: 75px;
+  
+}
+
+    
+
+.list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+    text-align: left;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    display: none;
+   
+   
+}
+
+.list-medicamentos-passaro{
+    margin-left: 75px;
+}
+
+
+li{
+    padding: 5px;
+    color: #E86B27;
+    
+}
+
+li:hover{
+    color: #70452d;
+}
+
+
+.slider-animais{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.slider-animais .card .title{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0.2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.slider-animais .card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1rem;
+   -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    
+    align-items: center;
+     
+ }
+ .slider-animais .card a.button{
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    color: #7ac402;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px ){
+
+    .banner-entrega{
+        font-size: 8px;
+    }
+    .caminhao-banner{
+        width: 70px;
+    }
+
+    .number-banner{
+        font-size: 20px;
+    }
+    .sup-banner{
+        font-size: 12px;
+    }
+    .logo-header{
+        cursor: pointer;
+        position: relative;
+        left: -10px;
+        top: 20px;
+        width: 20px;
+        align-items: center;
+    }
+
+    .logo-img-header{
+        width: 120px;
+        
+    }
+
+    .botoes-header{
+        position: relative;
+        left: 40px;
+        top: 40%;
+        margin: 0px;
+    }
+
+    .but-cadastro-header,.but-social-header,.but-quem-somos-header{
+        font-size: 15px;
+    }
+
+    .container-section-pets{
+
+        display:flex;
+        justify-content: center;
+        margin-right: 10px;
+        margin: auto;
+    }
+    
+
+    .container-main-parte-1{
+        position: relative;
+        background-image: url('template/semi-template.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 450px;
+        width: 100%;
+        max-width: 480px;
+    }
+
+
+    .section-h2-parte-1{
+        position: absolute;
+       font-family: 'bolon', Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       left: 30px;
+       top: 30px;
+       color: white;
+    }
+
+
+    .section-h1-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        left: 30px;
+        top: 150px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    .section-h3-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        left: 30px;
+        top: 250px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    
+    .section-h4-parte-1{
+        position: absolute;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        left: 10px;
+        top: 260px;
+        color: rgba(255, 255, 255, 0.845);
+    
+        font-weight: bold;
+        text-align: left;
+        width:250px;
+        line-height: 0px;
+    
+    }
+
+
+    .marca-container-main-parte-2{
+        display: flex;
+        margin: auto;
+        padding: 5px;
+        background-color: #fff;
+       
+    }
+
+
+    
+    .img-logo-marca{
+        width: 65px;
+        cursor: pointer;
+        transition: 0.3s all ease;
+    }
+
+
+    .img-logo-marca:hover{
+        width: 100px;
+    }
+
+    .title-main-parte-2{
+        font-family: 'bolon',Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+
+
+    
+    .slider .card .title{
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 22px;
+        margin: 0.2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.67);
+    }
+
+
+    
+    .slider .card a.button{
+        border: 1px solid #7ac402;
+        border-radius: 30px;
+        color: #7ac402;
+        padding: 0.8rem 1rem;
+        margin-bottom: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .slider .card{
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 1rem;
+         -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         width: 100%;
+         max-width: 280px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+         
+     }
+
+
+     .preco{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 20px;
+        
+    }
+    .preco1{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 10px;
+        display: none;
+    }
+
+
+
+    .premier-produtos,.formula-produtos,.golden-produtos,.must-produtos,.tutano-produtos,.quatree-produtos{
+        font-family: "Open Sans", sans-serif;
+        background-color: #e3eaf0;
+        color: #747d89;
+        font-size: 16px;
+        padding: 2rem 0;
+        min-height: 50vh;
+        display: none;
+        
+    }
+
+    .container-img-contato{
+        height: 500px;
+        max-width: 480px;
+    }
+
+
+    .link-maps-contato{
+        position: relative;
+       margin-top: 150px;
+        border: 0;
+        right: 12%;
+        top: 17%;
+        width: 350px;
+        height: 400px;
+    }
+
+    .unidade{
+      position: relative;
+      left: 30%;
+      width: 200px;
+      top: 20px;
+        font-size: 20px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        color: #E86B27;
+    }
+
+    .link-contatos-social{
+     display: none;
+    }
+
+
+
+
+    
+    .text-centro{
+        margin: 10px;
+        font-size: 18px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        
+        
+    }
+
+    
+
+
+    .container-footer{
+       
+        width: 100%;
+        max-width: 480px;
+        height: 410px;
+    }
+
+
+
+    .logo-footer{
+        position: absolute;
+        left: 20px;
+        top: 50px;
+        
+    }
+
+    .img-logo-footer{
+        width: 25vw;
+    }
+
+
+    
+    .categorias-footer{
+        position: absolute;
+        left: 34%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 11px;
+      
+    }
+
+
+    
+    .marcas-footer{
+        position: absolute;
+        left: 64%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+
+    
+    .especialidades-footer{
+        position: absolute;
+        left: 78%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+
+
+
+    .social-whatsapp-footer{
+        position: absolute;
+        left: 75%;
+        top: 225px;
+     }
+
+     .whatsapp-width,.instagram-width,.google-width{
+        width: 40px;
+     }
+     
+     .social-instagram-footer{
+        position: absolute;
+        left: 83%;
+        top: 225px;
+     }
+     
+     .social-google-footer{
+         position: absolute;
+         left: 90%;
+         top: 225px;
+     }
+     
+     .social-contato-button-footer{
+         padding: 10px;
+         padding-left: 30px;
+         padding-right: 30px;
+         margin-right: 5px;
+         font-family: "bolon", Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 20px;
+         border-radius: 30px;
+         background-color: #E86B27;
+         border: none;
+         cursor: pointer;
+         color: white;
+         transition: 0.3s all ease;
+         position: absolute;
+         left: 72%;
+         top: 270px;
+     }
+
+
+
+     .developer-name-footer{
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        position: absolute;
+        left: 2%;
+        top: 150px;
+        font-size: 8px;
+    }
+
+
+
+    .social-contato-button-developer-footer{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 5px;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 30px;
+        background-color: #E86B27;
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s all ease;
+        position: absolute;
+        left: 10%;
+        top: 30px;
+    }
+
+
+
+    .forma-pagamento-footer{
+        position: absolute;
+        left: 33.8%;
+        top: 285px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+
+
+    .bandeira-cartao-footer{
+        display: flex;
+        position: absolute;
+        left: 7%;
+        top: 330px;
+        margin-top: 10px;
+        
+    }
+
+
+
+    .img-cartao-footer{
+        position: absolute;
+        left: 85%;
+        top: 362px;
+    }
+
+
+    .img-cartao{
+        width: 70px;
+    }
+
+
+
+    /*section animais*/
+
+    .categorias-animais{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+        flex-wrap: wrap;
+       
+        
+     
+        
+    }
+
+    .title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+        font-size: 18px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: 30px;
+      
+    }
+
+
+
+    .list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+        text-align: left;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 30px;
+        display: none;
+       
+       
+    }
+
+    
+
+
+    
+
+
+
+    /* animais */
+
+
+
+.container-1{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/*Raçoes*/
+
+.super-premium,.super-premium2,.premium-especial,.premium-especial2,.premium,.premium2,.stand,.stand2,/*Passaros*/ .mistura,.mistura2,.calopsita,.calopsita2,.coleiro,.coleiro2,.trinca-ferro,.trinca-ferro2,
+
+/*Acessorios*/
+
+.coleira,.coleira2,.comedouro,.comedouro2,.brinquedo,.brinquedo2,.casaetransporte,.casaetransporte2,  /*Passaros*/ .porta-vitamina,.porta-vitamina2,.bebedouro,.bebedouro2,.banheira,.banheira2,
+
+/*Medicamentos*/
+
+.antibiotico,.antibiotico2,.antialergico,.antialergico2,.calmante,.calmante2,.vitamina,.vitamina2,.pulga,.pulga2, /*Passaros*/ .vermifugo,.vermifugo2,
+
+/*Higiênico*/
+
+.banho,.banho2,.fralda-e-rp,.fralda-e-rp2,.escova,.escova2,.tapete,.tapete2,  /*Gato*/ .banho-a-seco,.banho-a-seco2,.caixa,.caixa2,.areia,.areia2,
+
+/*Petisco*/
+
+.sache-e-petisco,.sache-e-petisco2,.biscrok,.biscrok2,.osso,.osso2,.bifinho,.bifinho2,/*Gato*/ .bola-de-pelo,.bola-de-pelo2
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+}
+
+
+
+
+
+.title-main-cachorro{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-cachorro::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.categorias-animais{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+ 
+    
+}
+
+.card-1{
+    display: hidden;
+    
+
+}
+
+
+.categorias-racoes,.categorias-acessorios,.categorias-medicamentos,.categorias-higienicos,.categorias-petiscos{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #E86B27;
+    transition: 0.3s all ease;
+    text-align: center;
+    
+}
+
+.categorias-racoes:hover,.categorias-acessorios:hover,.categorias-medicamentos:hover,.categorias-higienicos:hover,.categorias-petiscos:hover{
+  
+    transition: 0.3s all ease;
+    color: #E86B27;;
+    background-color: #fff;
+    
+
+}
+.title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  
+}
+
+.title-medicamentos-passaro{
+    margin-left: 75px;
+  
+}
+
+    
+
+.list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+    text-align: left;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    display: none;
+   
+   
+}
+
+.list-medicamentos-passaro{
+    margin-left: 75px;
+}
+
+
+li{
+    padding: 5px;
+    color: #E86B27;
+    
+}
+
+li:hover{
+    color: #70452d;
+}
+
+
+.slider-animais{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.slider-animais .card .title{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0.2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.slider-animais .card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1rem;
+   -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    
+    align-items: center;
+     
+ }
+ .slider-animais .card a.button{
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    color: #7ac402;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+    
+
+    
+}
+
+
+
+
+
+@media screen and (max-width: 391px ){
+
+    
+    .container-header{
+        max-height: 60px;
+        max-width: 390px;
+    }
+
+    .logo-header{
+        cursor: pointer;
+        position: relative;
+        right: 1px;
+        top: 5px;
+        width: 20px;
+        align-items: center;
+    }
+
+    .logo-img-hearder{
+        width: 120px;
+        margin-top: 15px;
+    }
+
+    .botoes-header{
+        position: relative;
+        left: 120px;
+        top: 10px;
+        margin-right: 100px;
+        margin-top: 15px;
+    }
+
+    .but-cadastro-header,.but-social-header,.but-quem-somos-header{
+        font-size: 12px;
+        
+    }
+
+    .but-cadastro-header{
+        margin-left: -50px;
+    }
+
+    .container-section-pets{
+
+        display:flex;
+        justify-content: center;
+        margin-right: 10px;
+        margin: auto;
+    }
+
+    .section-pet-cachorro{
+        margin-left: 30px;
+    }
+
+    .pets{
+        width: 55px;    }
+    
+
+    .container-main-parte-1{
+        position: relative;
+        background-image: url('template/semi-template.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 390px;
+        width: 100%;
+        max-width: 390px;
+    }
+
+
+    .section-h2-parte-1{
+        position: absolute;
+       font-family: 'bolon', Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       left: 30px;
+       top: 30px;
+       color: white;
+    }
+
+
+    .section-h1-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        left: 30px;
+        top: 100px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    .section-h3-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        left: 30px;
+        top: 180px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    
+    .section-h4-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        left: 10px;
+        top: 190px;
+        color: rgba(18, 17, 17, 0.845);
+        font-weight: bold;
+        text-align: left;
+        width: 220px;
+        line-height: 0px;
+    
+    }
+
+
+    .marca-container-main-parte-2{
+        display: flex;
+        justify-content: center;
+        padding: 2px;
+        background-color: #fff;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+
+
+    
+    .img-logo-marca{
+        width: 90px;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        margin: 5px;
+        
+    }
+
+
+    .img-logo-marca:hover{
+        width: 120px;
+    }
+
+    .title-main-parte-2{
+        font-family: 'bolon',Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+
+
+    
+    .slider .card .title{
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 12px;
+        margin: 0.2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.67);
+    }
+
+
+    
+    .slider .card a.button{
+        border: 1px solid #7ac402;
+        border-radius: 30px;
+        color: #7ac402;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .slider .card{
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 1rem;
+         -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         width: 100%;
+         max-width: 150px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+         
+     }
+
+
+     .preco{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 20px;
+        
+    }
+    .preco1{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 10px;
+        display: none;
+    }
+
+
+
+    .premier-produtos,.formula-produtos,.golden-produtos,.must-produtos,.tutano-produtos,.quatree-produtos{
+        font-family: "Open Sans", sans-serif;
+        background-color: #e3eaf0;
+        color: #747d89;
+        font-size: 16px;
+        padding: 2rem 0;
+        min-height: 50vh;
+        display: none;
+        
+    }
+
+    .container-img-contato{
+        height: 500px;
+        max-width: 390px;
+    }
+
+
+    .link-maps-contato{
+        position: relative;
+       margin-top: 150px;
+        border: 0;
+        right: 15%;
+        top: 10%;
+        width: 250px;
+        height: 300px;
+    }
+
+    .unidade{
+      position: relative;
+      left: 30%;
+      width: 200px;
+      top: 20px;
+        font-size: 20px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        color: #E86B27;
+    }
+
+    .link-contatos-social{
+     display: none;
+    }
+    
+    .link-whatsapp-icon-contato,.link-instagram-icon-contato,.link-maps-icon-contato{
+        display: flex;
+        color: #fff;
+        width: 250px;
+        align-items: center;
+       
+    
+    }
+
+
+    .link-whatsapp-icon-contato{
+       position: relative;
+       right: 140%;
+       top: 50%;
+       
+    }
+
+
+
+    .link-instagram-icon-contato{
+        position: relative;
+        right: 140%;
+        top: 41%;
+    }
+
+
+    .link-maps-icon-contato{
+        position: relative;
+        right: 140%;
+        top: 30%;
+    }
+
+
+    .img-contato{
+        width: 8vw;
+        height: 5vh;
+    }
+
+
+
+    
+    .text-centro{
+        margin: 10px;
+        font-size: 18px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        
+        
+    }
+
+    
+
+
+    .container-footer{
+       
+        width: 100%;
+        max-width: 390px;
+        height: 410px;
+    }
+
+
+
+    .logo-footer{
+        position: absolute;
+        left: 25px;
+        top: 50px;
+        
+    }
+
+    .img-logo-footer{
+        width: 25vw;
+    }
+
+
+    
+    .categorias-footer{
+        position: absolute;
+        left: 39%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 9px;
+      
+    }
+
+
+    
+    .marcas-footer{
+        position: absolute;
+        left: 67%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 9px;
+    }
+
+
+    
+    .especialidades-footer{
+        position: absolute;
+        left: 80%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 9px;
+    }
+
+
+
+    .social-whatsapp-footer{
+        position: absolute;
+        left: 70%;
+        top: 170px;
+     }
+
+     .whatsapp-width,.instagram-width,.google-width{
+        width: 40px;
+     }
+     
+     .social-instagram-footer{
+        position: absolute;
+        left: 80%;
+        top: 170px;
+     }
+     
+     .social-google-footer{
+         position: absolute;
+         left: 89%;
+         top: 170px;
+     }
+     
+     .social-contato-button-footer{
+         padding: 10px;
+         padding-left: 30px;
+         padding-right: 30px;
+         margin-right: 5px;
+         font-family: "bolon", Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 15px;
+         border-radius: 30px;
+         background-color: #E86B27;
+         border: none;
+         cursor: pointer;
+         color: white;
+         transition: 0.3s all ease;
+         position: absolute;
+         left: 69%;
+         top: 220px;
+     }
+
+
+
+     .developer-name-footer{
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        position: absolute;
+        left: 1%;
+        top: 150px;
+        font-size: 8px;
+    }
+
+
+
+    .social-contato-button-developer-footer{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 5px;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 30px;
+        background-color: #E86B27;
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s all ease;
+        position: absolute;
+        left: 8%;
+        top: 30px;
+    }
+
+
+
+    .forma-pagamento-footer{
+        position: absolute;
+        left: 33.8%;
+        top: 285px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+
+
+    .bandeira-cartao-footer{
+        display: flex;
+        position: absolute;
+        left: 2%;
+        top: 315px;
+        margin-top: 10px;
+        
+    }
+
+
+
+    .img-cartao-footer{
+        position: absolute;
+        left: 81%;
+        top: 362px;
+    }
+
+
+    .img-cartao{
+        width: 70px;
+    }
+
+
+
+    /*section animais*/
+
+    .categorias-animais{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+        flex-wrap: wrap;
+       
+        
+     
+        
+    }
+
+    .title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+        font-size: 18px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: 30px;
+      
+    }
+
+
+
+    .list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+        text-align: left;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 30px;
+        display: none;
+       
+       
+    }
+
+    
+
+
+    
+
+
+
+    /* animais */
+
+
+
+.container-1{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/*Raçoes*/
+
+.super-premium,.super-premium2,.premium-especial,.premium-especial2,.premium,.premium2,.stand,.stand2,/*Passaros*/ .mistura,.mistura2,.calopsita,.calopsita2,.coleiro,.coleiro2,.trinca-ferro,.trinca-ferro2,
+
+/*Acessorios*/
+
+.coleira,.coleira2,.comedouro,.comedouro2,.brinquedo,.brinquedo2,.casaetransporte,.casaetransporte2,  /*Passaros*/ .porta-vitamina,.porta-vitamina2,.bebedouro,.bebedouro2,.banheira,.banheira2,
+
+/*Medicamentos*/
+
+.antibiotico,.antibiotico2,.antialergico,.antialergico2,.calmante,.calmante2,.vitamina,.vitamina2,.pulga,.pulga2, /*Passaros*/ .vermifugo,.vermifugo2,
+
+/*Higiênico*/
+
+.banho,.banho2,.fralda-e-rp,.fralda-e-rp2,.escova,.escova2,.tapete,.tapete2,  /*Gato*/ .banho-a-seco,.banho-a-seco2,.caixa,.caixa2,.areia,.areia2,
+
+/*Petisco*/
+
+.sache-e-petisco,.sache-e-petisco2,.biscrok,.biscrok2,.osso,.osso2,.bifinho,.bifinho2,/*Gato*/ .bola-de-pelo,.bola-de-pelo2
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+}
+
+
+
+
+
+.title-main-cachorro{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-cachorro::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.categorias-animais{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+ 
+    
+}
+
+.card-1{
+    display: hidden;
+    
+
+}
+
+
+.categorias-racoes,.categorias-acessorios,.categorias-medicamentos,.categorias-higienicos,.categorias-petiscos{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #E86B27;
+    transition: 0.3s all ease;
+    text-align: center;
+    
+}
+
+.categorias-racoes:hover,.categorias-acessorios:hover,.categorias-medicamentos:hover,.categorias-higienicos:hover,.categorias-petiscos:hover{
+  
+    transition: 0.3s all ease;
+    color: #E86B27;;
+    background-color: #fff;
+    
+
+}
+.title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  
+}
+
+.title-medicamentos-passaro{
+    margin-left: 75px;
+  
+}
+
+    
+
+.list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+    text-align: left;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    display: none;
+   
+   
+}
+
+.list-medicamentos-passaro{
+    margin-left: 75px;
+}
+
+
+li{
+    padding: 5px;
+    color: #E86B27;
+    
+}
+
+li:hover{
+    color: #70452d;
+}
+
+
+.slider-animais{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.slider-animais .card .title{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0.2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+
+.slider-animais .card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1rem;
+   -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    
+    align-items: center;
+     
+ }
+ .slider-animais .card a.button{
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    color: #7ac402;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 376px ){
+    
+    .banner-entrega{
+        font-size: 7px;
+    }
+    .caminhao-banner{
+        width: 50px;
+    }
+
+    .number-banner{
+        font-size: 20px;
+    }
+    .sup-banner{
+        font-size: 12px;
+    }
+
+    .container-header{
+        max-height: 60px;
+        max-width: 376px;
+    }
+
+    .logo-header{
+        cursor: pointer;
+        position: relative;
+        left: -10px;
+        top: -10px;
+        width: 20px;
+        align-items: center;
+    }
+
+    .logo-img-header{
+        width: 120px;
+        margin-top: 15px;
+    }
+
+    .botoes-header{
+        position: relative;
+        left: 120px;
+        top: 10px;
+        margin-right: 100px;
+        margin-top: 15px;
+    }
+
+    .but-cadastro-header,.but-social-header,.but-quem-somos-header{
+        font-size: 12px;
+        margin: 0px;
+        
+    }
+
+    .but-cadastro-header{
+        margin-left: -50px;
+    }
+
+    .container-section-pets{
+
+        display:flex;
+        justify-content: center;
+        margin-right: 10px;
+        margin: auto;
+        
+    }
+
+    .section-pet-cachorro{
+        margin-left: 30px;
+    }
+
+    .pets{
+        width: 55px;    }
+    
+
+    .container-main-parte-1{
+        position: relative;
+        background-image: url('template/semi-template.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 380px;
+        width: 100%;
+        max-width: 376px;
+    }
+
+
+    .section-h2-parte-1{
+        position: absolute;
+       font-family: 'bolon', Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       left: 30px;
+       top: 30px;
+       color: white;
+    }
+
+
+    .section-h1-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        left: 30px;
+        top: 100px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    .section-h3-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        left: 30px;
+        top: 180px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    
+    .section-h4-parte-1{
+        position: absolute;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-size: 8px;
+        left: 10px;
+        top: 190px;
+        color: rgba(18, 17, 17, 0.845);
+    
+        font-weight: bold;
+        text-align: left;
+        width: 200px;
+        line-height: 0px;
+    
+    }
+
+
+    .marca-container-main-parte-2{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background-color: #fff;
+        flex-wrap: wrap;
+    }
+
+
+    
+    .img-logo-marca{
+        width: 90px;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        
+    }
+
+
+    .img-logo-marca:hover{
+        width: 100px;
+    }
+
+    .title-main-parte-2{
+        font-family: 'bolon',Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+
+
+    
+    .slider .card .title{
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 12px;
+        margin: 0.2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.67);
+    }
+
+
+    
+    .slider .card a.button{
+        border: 1px solid #7ac402;
+        border-radius: 30px;
+        color: #7ac402;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .slider .card{
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 1rem;
+         -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         width: 100%;
+         max-width: 150px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+         
+     }
+
+
+     .preco{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 20px;
+        
+    }
+    .preco1{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 10px;
+        display: none;
+    }
+
+
+
+    .premier-produtos,.formula-produtos,.golden-produtos,.must-produtos,.tutano-produtos,.quatree-produtos{
+        font-family: "Open Sans", sans-serif;
+        background-color: #e3eaf0;
+        color: #747d89;
+        font-size: 16px;
+        padding: 2rem 0;
+        min-height: 50vh;
+        display: none;
+        
+    }
+
+    .container-img-contato{
+        height: 500px;
+        max-width: 375px;
+    }
+
+
+    .link-maps-contato{
+        position: relative;
+       margin-top: 150px;
+        border: 0;
+        right: 15%;
+        top: 10%;
+        width: 250px;
+        height: 300px;
+    }
+
+    .unidade{
+      position: relative;
+      left: 30%;
+      width: 200px;
+      top: 20px;
+        font-size: 20px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        color: #E86B27;
+    }
+
+    .link-contatos-social{
+     display: none;
+    }
+    
+    .link-whatsapp-icon-contato,.link-instagram-icon-contato,.link-maps-icon-contato{
+        display: flex;
+        color: #fff;
+        width: 250px;
+        align-items: center;
+       
+    
+    }
+
+
+    .link-whatsapp-icon-contato{
+       position: relative;
+       right: 140%;
+       top: 50%;
+       
+    }
+
+
+
+    .link-instagram-icon-contato{
+        position: relative;
+        right: 140%;
+        top: 41%;
+    }
+
+
+    .link-maps-icon-contato{
+        position: relative;
+        right: 140%;
+        top: 30%;
+    }
+
+
+    .img-contato{
+        width: 8vw;
+        height: 5vh;
+    }
+
+
+
+    
+    .text-centro{
+        margin: 10px;
+        font-size: 18px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        
+        
+    }
+
+    
+
+
+    .container-footer{
+       
+        width: 100%;
+        max-width: 375px;
+        height: 410px;
+    }
+
+
+
+    .logo-footer{
+        position: absolute;
+        left: 25px;
+        top: 50px;
+        
+    }
+
+    .img-logo-footer{
+        width: 25vw;
+    }
+
+
+    
+    .categorias-footer{
+        position: absolute;
+        left: 39%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 9px;
+      
+    }
+
+
+    
+    .marcas-footer{
+        position: absolute;
+        left: 67%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 9px;
+    }
+
+
+    
+    .especialidades-footer{
+        position: absolute;
+        left: 80%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 9px;
+    }
+
+
+
+    .social-whatsapp-footer{
+        position: absolute;
+        left: 70%;
+        top: 170px;
+     }
+
+     .whatsapp-width,.instagram-width,.google-width{
+        width: 40px;
+     }
+     
+     .social-instagram-footer{
+        position: absolute;
+        left: 80%;
+        top: 170px;
+     }
+     
+     .social-google-footer{
+         position: absolute;
+         left: 89%;
+         top: 170px;
+     }
+     
+     .social-contato-button-footer{
+         padding: 10px;
+         padding-left: 30px;
+         padding-right: 30px;
+         margin-right: 5px;
+         font-family: "bolon", Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 15px;
+         border-radius: 30px;
+         background-color: #E86B27;
+         border: none;
+         cursor: pointer;
+         color: white;
+         transition: 0.3s all ease;
+         position: absolute;
+         left: 69%;
+         top: 220px;
+     }
+
+
+
+     .developer-name-footer{
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        position: absolute;
+        left: 1%;
+        top: 150px;
+        font-size: 8px;
+    }
+
+
+
+    .social-contato-button-developer-footer{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 5px;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 30px;
+        background-color: #E86B27;
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s all ease;
+        position: absolute;
+        left: 8%;
+        top: 30px;
+    }
+
+
+
+    .forma-pagamento-footer{
+        position: absolute;
+        left: 33.8%;
+        top: 285px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+
+
+    .bandeira-cartao-footer{
+        display: flex;
+        position: absolute;
+        left: 2%;
+        top: 315px;
+        margin-top: 10px;
+        
+    }
+
+
+
+    .img-cartao-footer{
+        position: absolute;
+        left: 81%;
+        top: 362px;
+    }
+
+
+    .img-cartao{
+        width: 70px;
+    }
+
+
+
+    /*section animais*/
+
+    .categorias-animais{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+        flex-wrap: wrap;
+       
+        
+     
+        
+    }
+
+    .title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+        font-size: 18px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: 30px;
+      
+    }
+
+
+
+    .list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+        text-align: left;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 30px;
+        display: none;
+       
+       
+    }
+
+    
+
+
+    
+
+
+
+    /* animais */
+
+
+
+.container-1{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/*Raçoes*/
+
+.super-premium,.super-premium2,.premium-especial,.premium-especial2,.premium,.premium2,.stand,.stand2,/*Passaros*/ .mistura,.mistura2,.calopsita,.calopsita2,.coleiro,.coleiro2,.trinca-ferro,.trinca-ferro2,
+
+/*Acessorios*/
+
+.coleira,.coleira2,.comedouro,.comedouro2,.brinquedo,.brinquedo2,.casaetransporte,.casaetransporte2,  /*Passaros*/ .porta-vitamina,.porta-vitamina2,.bebedouro,.bebedouro2,.banheira,.banheira2,
+
+/*Medicamentos*/
+
+.antibiotico,.antibiotico2,.antialergico,.antialergico2,.calmante,.calmante2,.vitamina,.vitamina2,.pulga,.pulga2, /*Passaros*/ .vermifugo,.vermifugo2,
+
+/*Higiênico*/
+
+.banho,.banho2,.fralda-e-rp,.fralda-e-rp2,.escova,.escova2,.tapete,.tapete2,  /*Gato*/ .banho-a-seco,.banho-a-seco2,.caixa,.caixa2,.areia,.areia2,
+
+/*Petisco*/
+
+.sache-e-petisco,.sache-e-petisco2,.biscrok,.biscrok2,.osso,.osso2,.bifinho,.bifinho2,/*Gato*/ .bola-de-pelo,.bola-de-pelo2
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+}
+
+
+
+
+
+.title-main-cachorro{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-cachorro::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.categorias-animais{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+ 
+    
+}
+
+.card-1{
+    display: hidden;
+    
+
+}
+
+
+.categorias-racoes,.categorias-acessorios,.categorias-medicamentos,.categorias-higienicos,.categorias-petiscos{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #E86B27;
+    transition: 0.3s all ease;
+    text-align: center;
+    
+}
+
+.categorias-racoes:hover,.categorias-acessorios:hover,.categorias-medicamentos:hover,.categorias-higienicos:hover,.categorias-petiscos:hover{
+  
+    transition: 0.3s all ease;
+    color: #E86B27;;
+    background-color: #fff;
+    
+
+}
+.title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  
+}
+
+.title-medicamentos-passaro{
+    margin-left: 75px;
+  
+}
+
+    
+
+.list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+    text-align: left;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    display: none;
+   
+   
+}
+
+.list-medicamentos-passaro{
+    margin-left: 75px;
+}
+
+
+li{
+    padding: 5px;
+    color: #E86B27;
+    
+}
+
+li:hover{
+    color: #70452d;
+}
+
+
+.slider-animais{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.slider-animais .card .title{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0.2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+
+.slider-animais .card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1rem;
+   -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    
+    align-items: center;
+     
+ }
+ .slider-animais .card a.button{
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    color: #7ac402;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px ){
+
+
+    .banner-entrega{
+        font-size: 7px;
+    }
+    .caminhao-banner{
+        width: 50px;
+    }
+
+    .number-banner{
+        font-size: 18px;
+        margin: 2px;
+    }
+    .sup-banner{
+        font-size: 10px;
+    }
+    .container-header{
+        max-height: 60px;
+        max-width: 320px;
+    }
+
+    .logo-header{
+        cursor: pointer;
+        position: relative;
+        left: -25px;
+        top: -10px;
+        width: 20px;
+        align-items: center;
+    }
+
+    .logo-img-header{
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .botoes-header{
+        position: relative;
+        left: 28px;
+        top: 10px;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+
+    .but-cadastro-header,.but-social-header,.but-quem-somos-header{
+        font-size: 10px;
+        margin: 0px;
+        
+    }
+
+    .but-cadastro-header{
+        margin-left: -50px;
+    }
+
+    .container-section-pets{
+
+        display:flex;
+        justify-content: center;
+        margin-right: 10px;
+        margin: auto;
+    }
+
+    .section-pet-cachorro{
+        margin-left: 30px;
+    }
+
+    .pets{
+        width: 60px;    }
+    
+
+    .container-main-parte-1{
+        position: relative;
+        background-image: url('template/semi-template.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 380px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+
+    .section-h2-parte-1{
+        position: absolute;
+       font-family: 'bolon', Arial, Helvetica, sans-serif;
+       font-size: 15px;
+       left: 30px;
+       top: 30px;
+       color: white;
+    }
+
+
+    .section-h1-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        left: 30px;
+        top: 100px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    .section-h3-parte-1{
+        position: absolute;
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        left: 30px;
+        top: 180px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        
+    }
+
+
+    
+    .section-h4-parte-1{
+        position: absolute;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-size: 8px;
+        left: 10px;
+        top: 190px;
+        color: rgba(18, 17, 17, 0.845);
+    
+        font-weight: bold;
+        text-align: left;
+        width: 190px;
+        line-height: 0px;
+    
+    }
+
+
+    .marca-container-main-parte-2{
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background-color: #fff;
+        flex-wrap: wrap;
+    }
+
+
+    
+    .img-logo-marca{
+        width: 90px;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        
+    }
+
+
+    .img-logo-marca:hover{
+        width: 100px;
+    }
+
+    .title-main-parte-2{
+        font-family: 'bolon',Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+
+
+    
+    .slider .card .title{
+        padding-top: 1rem;
+        font-weight: 700;
+        font-size: 12px;
+        margin: 0.2rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.67);
+    }
+
+
+    
+    .slider .card a.button{
+        border: 1px solid #7ac402;
+        border-radius: 30px;
+        color: #7ac402;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .slider{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .slider .card{
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 1rem;
+         -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+         width: 100%;
+         max-width: 135px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+         
+     }
+
+
+     .preco{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 15px;
+        
+    }
+    .preco1{
+        display: flex;
+        gap: 10px;
+        margin: 0.5rem;
+        font-size: 10px;
+        display: none;
+    }
+
+
+
+    .premier-produtos,.formula-produtos,.golden-produtos,.must-produtos,.tutano-produtos,.quatree-produtos{
+        font-family: "Open Sans", sans-serif;
+        background-color: #e3eaf0;
+        color: #747d89;
+        font-size: 16px;
+        padding: 2rem 0;
+        min-height: 50vh;
+        display: none;
+        
+    }
+
+    .container-img-contato{
+        height: 500px;
+        max-width: 320px;
+    }
+
+
+    .link-maps-contato{
+        position: relative;
+        margin-top: 150px;
+        border: 0;
+        right: 22%;
+        top: 10%;
+        width: 220px;
+        height: 300px;
+    }
+
+
+    .unidade{
+      position: relative;
+      left: 30%;
+      width: 200px;
+      top: 20px;
+        font-size: 20px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        color: #E86B27;
+    }
+
+    .link-contatos-social{
+     display: none;
+    }
+    
+    .link-whatsapp-icon-contato,.link-instagram-icon-contato,.link-maps-icon-contato{
+        display: flex;
+        color: #fff;
+        width: 250px;
+        align-items: center;
+       
+    
+    }
+
+
+    .link-whatsapp-icon-contato{
+       position: relative;
+       right: 140%;
+       top: 50%;
+       
+    }
+
+
+
+    .link-instagram-icon-contato{
+        position: relative;
+        right: 140%;
+        top: 41%;
+    }
+
+
+    .link-maps-icon-contato{
+        position: relative;
+        right: 140%;
+        top: 30%;
+    }
+
+
+    .img-contato{
+        width: 8vw;
+        height: 5vh;
+    }
+
+
+
+    
+    .text-centro{
+        margin: 10px;
+        font-size: 18px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        
+        
+    }
+
+    
+
+
+    .container-footer{
+       
+        width: 100%;
+        max-width: 320px;
+        height: 410px;
+    }
+
+
+
+    .logo-footer{
+        position: absolute;
+        left: 25px;
+        top: 50px;
+        
+    }
+
+    .img-logo-footer{
+        width: 25vw;
+    }
+
+
+    
+    .categorias-footer{
+        position: absolute;
+        left: 41%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 8px;
+      
+    }
+
+
+    
+    .marcas-footer{
+        position: absolute;
+        left: 69%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 8px;
+    }
+
+
+    
+    .especialidades-footer{
+        position: absolute;
+        left: 82%;
+        top: 30px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 7px;
+    }
+
+
+
+    .social-whatsapp-footer{
+        position: absolute;
+        left: 70%;
+        top: 180px;
+     }
+
+     .whatsapp-width,.instagram-width,.google-width{
+        width: 30px;
+     }
+     
+     .social-instagram-footer{
+        position: absolute;
+        left: 80%;
+        top: 180px;
+     }
+     
+     .social-google-footer{
+         position: absolute;
+         left: 89%;
+         top: 180px;
+     }
+     
+     .social-contato-button-footer{
+         padding: 10px;
+         padding-left: 20px;
+         padding-right: 20px;
+         margin-right: 5px;
+         font-family: "bolon", Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 15px;
+         border-radius: 30px;
+         background-color: #E86B27;
+         border: none;
+         cursor: pointer;
+         color: white;
+         transition: 0.3s all ease;
+         position: absolute;
+         left: 70%;
+         top: 220px;
+     }
+
+
+
+     .developer-name-footer{
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        position: absolute;
+        left: 1%;
+        top: 150px;
+        font-size: 7px;
+    }
+    
+
+
+
+    .social-contato-button-developer-footer{
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-right: 5px;
+        font-family: "bolon", Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 30px;
+        background-color: #E86B27;
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: 0.3s all ease;
+        position: absolute;
+        left: 8%;
+        top: 30px;
+    }
+
+
+
+    .forma-pagamento-footer{
+        position: absol0ute;
+        left: 33.8%;
+        top: 285px;
+        font-family: 'bolon', Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+
+
+    .bandeira-cartao-footer{
+        display: flex;
+        position: absolute;
+        left: 7%;
+        top: 320px;
+        margin-top: 10px;
+        
+    }
+
+    .img-bandeiras{
+        width: 30px;
+    }
+
+
+
+    .img-cartao-footer{
+        position: absolute;
+        left: 77%;
+        top: 362px;
+    }
+
+
+    .img-cartao{
+        width: 70px;
+    }
+
+
+
+    /*section animais*/
+
+    .categorias-animais{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+        flex-wrap: wrap;
+       
+        
+     
+        
+    }
+
+    .title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+        font-size: 16px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-left: 30px;
+      
+    }
+
+
+
+    .list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+        text-align: left;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 30px;
+        display: none;
+       
+       
+    }
+
+    
+
+
+    
+
+
+
+    /* animais */
+
+
+
+.container-1{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+}
+
+/*Raçoes*/
+
+.super-premium,.super-premium2,.premium-especial,.premium-especial2,.premium,.premium2,.stand,.stand2,/*Passaros*/ .mistura,.mistura2,.calopsita,.calopsita2,.coleiro,.coleiro2,.trinca-ferro,.trinca-ferro2,
+
+/*Acessorios*/
+
+.coleira,.coleira2,.comedouro,.comedouro2,.brinquedo,.brinquedo2,.casaetransporte,.casaetransporte2,  /*Passaros*/ .porta-vitamina,.porta-vitamina2,.bebedouro,.bebedouro2,.banheira,.banheira2,
+
+/*Medicamentos*/
+
+.antibiotico,.antibiotico2,.antialergico,.antialergico2,.calmante,.calmante2,.vitamina,.vitamina2,.pulga,.pulga2, /*Passaros*/ .vermifugo,.vermifugo2,
+
+/*Higiênico*/
+
+.banho,.banho2,.fralda-e-rp,.fralda-e-rp2,.escova,.escova2,.tapete,.tapete2,  /*Gato*/ .banho-a-seco,.banho-a-seco2,.caixa,.caixa2,.areia,.areia2,
+
+/*Petisco*/
+
+.sache-e-petisco,.sache-e-petisco2,.biscrok,.biscrok2,.osso,.osso2,.bifinho,.bifinho2,/*Gato*/ .bola-de-pelo,.bola-de-pelo2
+{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-height: 70vh;
+    display: none;
+}
+
+
+
+
+
+.title-main-cachorro{
+    font-family: 'bolon',Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.title-main-cachorro::after{
+    content: "";
+    background-color: #E86B27;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: auto;
+}
+
+.categorias-animais{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+ 
+    
+}
+
+.card-1{
+    display: hidden;
+    
+
+}
+
+
+.categorias-racoes,.categorias-acessorios,.categorias-medicamentos,.categorias-higienicos,.categorias-petiscos{
+    padding: 10px;
+    margin-right: 5px;
+    font-family: "bolon", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #E86B27;
+    transition: 0.3s all ease;
+    text-align: center;
+    
+}
+
+.categorias-racoes:hover,.categorias-acessorios:hover,.categorias-medicamentos:hover,.categorias-higienicos:hover,.categorias-petiscos:hover{
+  
+    transition: 0.3s all ease;
+    color: #E86B27;;
+    background-color: #fff;
+    
+
+}
+.title-racoes,.title-acessorios,.title-medicamentos,.title-higienicos,.title-petiscos{
+   
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  
+}
+
+.title-medicamentos-passaro{
+    margin-left: 75px;
+  
+}
+
+    
+
+.list-racoes,.list-acessorios,.list-medicamentos,.list-higienicos,.list-petiscos{
+    
+    text-align: left;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 30px;
+    display: none;
+   
+   
+}
+
+.list-medicamentos-passaro{
+    margin-left: 75px;
+}
+
+
+li{
+    padding: 5px;
+    color: #E86B27;
+    
+}
+
+li:hover{
+    color: #70452d;
+}
+
+
+.slider-animais{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.slider-animais .card .title{
+    padding-top: 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0.2rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+
+.slider-animais .card{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1rem;
+   -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow:  4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    
+    align-items: center;
+     
+ }
+ .slider-animais .card a.button{
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    color: #7ac402;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+    
+
+    
+}
+
