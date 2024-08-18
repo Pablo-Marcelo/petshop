@@ -1,0 +1,2687 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House pet</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.passaro.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+
+        <div class="logo-header">
+            <abbr title="Pagina Principal"><a href="index.html"><img class="logo-img-hearder" src="logo-icos/logo-finalizada.png" alt="logo" width="200px"></a></abbr>
+        </div>
+
+        <div class="botoes-header">
+            <a href="index.cadastro.html"><button onclick="Cadastro()" class="but-cadastro-header">Cadastro</button></a>
+            <a href="index.contato.html"><button class="but-social-header">Contato</button></a>
+            <button class="but-quem-somos-header">Quem Somos</button>
+            
+        </div>
+
+    </header>
+
+    <hr>
+
+    <section>
+
+        <div class="container-section-pets">
+            <abbr title="Sessão para Cães"><div class="section-pet-cachorro"><a href="index.cachorro.html"><img src="logo-icos/cachorro-branco.png" alt="cachorro" width="80px"  onmouseover="onmouseoverDog()" onmouseout="onmouseoutDog()" id="pet-cachorro"></a></div></abbr>
+
+            <abbr title="Sessão para Gatos"><div class="section-pet-gato"><a href="index.gato.html"><img id="pet-gato" src="logo-icos/gato-branco.png" alt="cat" width="80px" onmouseover="onmouseoverCat()" onmouseout="onmouseoutCat()"></a></div></abbr>
+
+            <div class="section-pet-peixe"><a href=""><img id="pet-peixe" src="logo-icos/peixe-branco.png" alt="peixe" width="80px" onmouseover="onmouseoverFish()" onmouseout="onmouseoutFish()"></a></div>
+
+            <div class="section-pet-casa"><a href=""><img id="pet-casa" src="logo-icos/casa-branca.png" alt="casa" width="80px" onmouseover="onmouseoverHouse()" onmouseout="onmouseoutHouse()"></a></div>
+ 
+        </div>
+
+    </section>
+
+    <main>
+
+        <div class="categorias-animais">
+                    
+            <div class="categorias-petiscos" onclick="petidisplay()">
+                <h2 class="title-petiscos"></h2>
+                <ul class="list-petiscos">
+                    <li id="button-sache">Sachês e Patês</li>
+                    <li id="button-biscrok">Biscrok</li>
+                    <li id="button-osso">Ossos</li>
+                    <li id="button-bifinho">Bifinhos</li>
+                   </ul>
+            </div>
+            
+            <div class="categorias-racoes" id="racoes" onclick="racoesdisplay()">
+                <h2 class="title-racoes  title-racoes-passaro">Rações</h2>
+                <ul class="list-racoes">
+                <li id="button-mistura">Misturas</li>
+                <li id="button-calopsita">Calopsita</li>
+                <li id="button-coleiro">Coleiro e Canário</li>
+                <li id="button-trinca-ferro">Trinca-Ferro</li>
+                </ul>
+            </div>
+
+            
+            <div class="categorias-medicamentos" onclick="medidisplay()">
+                <h2 class="title-medicamentos  title-medicamentos-passaro">Medicamentos</h2>
+                <ul class="list-medicamentos  list-medicamentos-passaro">
+                    <li id="button-antibiotico">Antibioticos</li>
+                    <li id="button-anti-inflamatorio">Anti-inflamatórios</li>
+                    <li id="button-vitamina">Vitaminas</li>
+                    <li id="button-vermifugo">Vermífugos</li> 
+                   </ul>
+            </div>
+
+
+            <div class="categorias-acessorios"  onclick="acessdisplay()">
+                <h2 class="title-acessorios  title-acessorios-passaro">Acessórios</h2>
+                <ul class="list-acessorios">
+                    <li id="button-porta-vitamina">Porta Vitaminas</li>
+                    <li id="button-bebedouro">Bebedouros</li>
+                    <li id="button-brinquedo">Brinquedos</li>
+                    <li id="button-banheira">Banheiras</li>
+                   </ul>
+            </div>
+
+            
+            <div class="categorias-higienicos" onclick="higidisplay()">
+                 <h2 class="title-higienicos"></h2>
+                 <ul class="list-higienicos">
+                    <li id="button-shampoo-e-condicionador">Shampoo e condicionador</li>
+                    <li id="button-fralda-e-rp">Fraldas e Roupas Cirurgicas</li>
+                    <li id="button-escova">Escovas</li>
+                    <li id="button-tapete">Tapetes</li>
+                   </ul>
+            </div>
+           
+
+     </div>
+
+        <section class="section-main-slider">
+           
+
+            <h2 class="title-main-cachorro"><b>Passaros</b></h2>
+
+            <div class="container-1" >
+
+                <div class="slider-animais">
+
+                    
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+
+    
+                </div>
+
+            </div>
+
+            </div>
+            
+        <section class="mistura-zone">
+
+
+            <div class="mistura">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mistura2" id="sup-premium">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="calopsita-zone">
+
+
+
+            <div class="calopsita">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="calopsita2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="coleiro-zone">
+
+
+
+            <div class="coleiro">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+
+                            
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="coleiro2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="trinca-ferro-zone">
+
+
+
+            <div class="trinca-ferro">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="trinca-ferro2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+
+
+        <section class="porta-vitamina-zone">
+
+
+
+            <div class="porta-vitamina">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="porta-vitamina2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="bebedouro-zone">
+
+
+
+            <div class="bebedouro">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bebedouro2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="brinquedo-zone">
+
+
+
+            <div class="brinquedo">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="brinquedo2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        
+        <section class="banheira-zone">
+
+
+
+            <div class="banheira">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="banheira2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="antibiotico-zone">
+
+
+
+            <div class="antibiotico">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="antibiotico2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="anti-inflamatorio-zone">
+
+
+
+            <div class="anti-inflamatorio">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="anti-inflamatorio2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+         <section class="vitamina-zone">
+
+
+
+            <div class="vitamina">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="vitamina2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="vermifugo-zone">
+
+
+
+            <div class="vermifugo">
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="vermifugo2" >
+
+                <div class="slider-animais">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes de R.P Ambientes Internos Sabor Frango e Salmão</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Pet Nattú Mandioca para Cães Adultos de Pequeno Porte</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5>R$ 1.000,00</h5>
+                        <h5>R$ 1.000,00</h5>
+                        </div>
+                        <a class="button" href="">Adicionar ao Carrinho</a>
+
+                        
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        </section>
+    </main>
+    
+</body>
+</html>

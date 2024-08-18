@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Pet</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <header>
+        <div class="container-header">
+
+        <div class="logo-header">
+            <abbr title="Pagina Principal"><a href="index.html"><img class="logo-img-header" src="logo-icos/logo-finalizada.png" alt="logo"></a></abbr>
+        </div>
+
+        <div class="botoes-header">
+            <a href="index.cadastro.html"><button onclick="Cadastro()" class="but-cadastro-header">Cadastro</button></a>
+            <a href="index.contato.html"><button class="but-social-header">Contato</button></a>
+            <button class="but-quem-somos-header">Quem Somos</button>
+
+        </div>
+
+    </header>
+
+    <hr>
+   
+
+    <section>
+
+        <div class="container-section-pets">
+            <abbr title="Sessão para Cães"><div class="section-pet-cachorro"><a href="index.cachorro.html"><img class="pets" src="logo-icos/cachorro-branco.png" alt="cachorro" width="80px"  onmouseover="onmouseoverDog()" onmouseout="onmouseoutDog()" id="pet-cachorro"></a></div></abbr>
+
+            <abbr title="Sessão para Gatos"><div class="section-pet-gato"><a href="index.gato.html"><img class="pets" id="pet-gato" src="logo-icos/gato-branco.png" alt="cat" width="80px" onmouseover="onmouseoverCat()" onmouseout="onmouseoutCat()"></a></div></abbr>
+
+            <abbr title="Sessão para Passaros">
+                <div class="section-pet-peixe"><a href="index.passaro.html"><img class="pets" id="pet-peixe" src="logo-icos/peixe-branco.png" alt="peixe" width="80px" onmouseover="onmouseoverFish()" onmouseout="onmouseoutFish()"></a></div>
+            </abbr>
+
+            <div class="section-pet-casa"><a href=""><img class="pets" id="pet-casa" src="logo-icos/casa-branca.png" alt="casa" width="80px" onmouseover="onmouseoverHouse()" onmouseout="onmouseoutHouse()"></a></div>
+ 
+        </div>
+
+    </section>
+
+    <main>
+        <section class="section-main-parte-1">
+            <div class="container-main-parte-1">
+                <h2 class="section-h2-parte-1">PET SHOP</h2>
+                <h1 class="section-h1-parte-1">Tudo que seu pet <br> precisa em alguns <br> clicks! </h1>
+                <h3 class="section-h3-parte-1">in love with pets</h3>
+                <h4 class="section-h4-parte-1"><ul class="list-style">
+                    <li class="list-style">Os Melhores Acessórios para seu Pet</li>
+                    <li class="list-style">Promoções semanais</li>
+                    <li class="list-style">Melhores Preços Sacaria Rações</li>
+                    <li class="list-style">Loja Física e Virtual</li>
+                    <li class="list-style">Veterinario + Consulta</li>
+                    <li class="list-style">Banho e Tosa com Clubinho</li>
+                    <li class="list-style">Medicamentos de todos os tipos</li>
+                    <li class="list-style">Mais de 40 variedades de rações</li>
+                    <li class="list-style">Casinhas e Caixas de Transportes</li>
+                </ul></h4>
+            </div>
+        </section>
+
+    
+        <section class="section-main-parte-2">
+
+            <h2 class="title-main-parte-2"><b>Principais</b> marcas</h2>
+
+            <div class="marca-container-main-parte-2">
+                
+                <div class="logo-marca" id="logo-marca-premier"><img class="img-logo-marca" src="marcas/Premier-super-premium.png" alt=""></div>
+
+                <div class="logo-marca" id="logo-marca-formula"><img class="img-logo-marca" src="marcas/Formula-Natural.png" alt=""></div>
+
+                <div class="logo-marca"  id="logo-marca-golden"><img class="img-logo-marca" src="marcas/Golden-premium-especial.png" alt=""></div>
+
+                <div class="logo-marca" id="logo-marca-must"><img class="img-logo-marca" src="marcas/MUST.png" alt=""></div>
+
+                <div class="logo-marca" id="logo-marca-tutano"><img class="img-logo-marca" src="marcas/tutano.png" alt=""></div>
+
+                <div class="logo-marca" id="logo-marca-quatree"><img class="img-logo-marca" src="marcas/Quatree.jpeg" alt=""></div>
+            </div>
+
+            <div class="premier-produtos" id="premier-pd">
+
+                <div class="slider">
+
+                    <div class="card">
+                        <div class="like" id="likepremier"></div>
+                        <img class="product" src="marcas/premier/Premier-Ambientes-Internos-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Ambientes Internos Cães Adultos Frango e Salmão 2,5kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 100,00</h5>
+                        <h5 >R$ 97,80</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Premier%20Ambientes%20Internos%20Adulto%202,5kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier2"></div>
+                        <img class="product" src="marcas/premier/premier-ambientes-internos-caes-filhote-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Premier para Cães Filhotes Ambientes Internos Frango e Salmão 2,5kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 110,00</h5>
+                        <h5 >R$ 102,35</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Premier%20Ambientes%20Internos%20Filhotes%202,5kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier3"></div>
+                        <img class="product" src="marcas/premier/Premier-raças-especificas-shih tzu.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Shih Tzu Adulto Raças Pequenas 2,5kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 115,00</h5>
+                        <h5 >R$ 104,70</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Premier%20ShihTsu%20Internos%20Adulto%202,5kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier4"></div>
+                        <img class="product" src="marcas/premier/Premier-Yorkshire-Adulto-25-KG.jpg" alt="">
+                        <h4 class="title">Ração Premier Pet Raças Específicas Yorkshire Adulto Raças Pequenas 2,5kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 115,00</h5>
+                        <h5 >R$ 104,70</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Premier%20Yorkshire%20Internos%20Adulto%202,5kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likepremier5"></div>
+                        <img class="product" src="marcas/premier/Premier-Nattu-2,5kg.jpg" alt="">
+                        <h4 class="title">Ração Seca PremieR Nattú frango e Mandioca Cães Pequeno Porte 2,5kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 110,00</h5>
+                        <h5 >R$ 104,90</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Premier%20ShihTsu%20Internos%20Adulto%202,5kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="formula-produtos" id="formula-pd">
+
+                <div class="slider">
+
+                    <div class="card">
+                        <div class="like" id="likeformula"></div>
+                        <img class="product" src="marcas/formula-natural/formul-natural-adulto-r-p-q.jpg" alt="">
+                        <h4 class="title">Ração Fórmula Natural Life Super Premium para Cães Adultos Raças Mini e Pequena 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 275,00</h5>
+                        <h5 >R$ 260,60</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Formula%20Natrual%20Adulto%20Raças-Pequenas%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likeformula2"></div>
+                        <img class="product" src="marcas/formula-natural/formula-natural-filhote-r-p-q.jpg" alt="">
+                        <h4 class="title">Ração Fórmula Natural Life Super Premium para Cães Filhotes Raças Mini e Pequenas 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 274,50</h5>
+                        <h5 >R$ 260,00</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Formula%20Natrual%20filhote%20Raças-Pequenas%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likeformula3"></div>
+                        <img class="product" src="marcas/formula-natural/formula-natutal-adulto-castrado-salmao.jpg" alt="">
+                        <h4 class="title">Ração Fórmula Natural Life Sabor Salmão para Gatos Adultos Castrados <br>15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 350,00</h5>
+                        <h5 >R$ 335,00</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Formula%20Natrual%20Gatos%20Castrados-Salmão%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likeformula4"></div>
+                        <img class="product" src="marcas/formula-natural/formula-natural-adulto-r-m-e-g.jpg" alt="">
+                        <h4 class="title">Ração Fórmula Natural para Cães Adultos de Raças Médias e Grandes 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 275,00</h5>
+                        <h5 >R$ 260,00</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Formula%20Natrual%20Adulto%20Raças-Médias-e-Grandes%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likeformula5"></div>
+                        <img class="product" src="marcas/formula-natural/formul-natural-adulto-r-p-q.jpg" alt="">
+                        <h4 class="title">Ração Fórmula Natural Life Super Premium para Cães Adultos Raças Mini e Pequena 7kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 180,00</h5>
+                        <h5 >R$ 176,60</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%Formula%20Natrual%20Adulto%20Raças-Pequenas%207kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="golden-produtos" id="golden-pd">
+
+                <div class="slider">
+
+                    <div class="card">
+                        <div class="like" id="likegolden"></div>
+                        <img class="product" src="marcas/golden/golden-mini-bits-frango-e-arroz.jpg" alt="">
+                        <h4 class="title">Golden Formula Frango e Arroz para Cães Adultos de Raças pequenas 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 180,00</h5>
+                        <h5 >R$ 173,25</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Golden%20Formula%20Adulto%20Raças-Pequenas-Frango-e-Arroz%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likegolden2"></div>
+                        <img class="product" src="marcas/golden/golden-mini-bits-carne-e-arroz.jpg" alt="">
+                        <h4 class="title">Golden Formula Carne e Arroz para Cães Adultos de Raças Pequenas 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 180,00</h5>
+                        <h5 >R$ 173,25</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Golden%20Formula%20Adulto%20Raças-Pequenas-Carne-e-Arroz%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likegolden3"></div>
+                        <img class="product" src="marcas/golden/golden-sepecial-carne-e-frango.jpg" alt="">
+                        <h4 class="title">GoldeN Special para Cães Adultos Medios e Grandes Frango & Carne 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 180,00</h5>
+                        <h5 >R$ 157,00</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Golden%Special%20Adulto%Carne-e-Frango%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likegolden4"></div>
+                        <img class="product" src="marcas/golden/golden-power-trainer-adulto.jpg" alt="">
+                        <h4 class="title">Ração Golden Power Training Cães Adultos Frango e Arroz 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 190,00</h5>
+                        <h5 >R$ 178,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Golden%20Power-Training%20Adulto%20Frango-e-Arroz%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likegolden5"></div>
+                        <img class="product" src="marcas/golden/golden-power-trainer-filhote.jpg" alt="">
+                        <h4 class="title">Ração Golden Power Training Cães Filhotes Frango e Arroz - 15 Kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 195,00</h5>
+                        <h5 >R$ 185,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Golden%20Power-Trainng%20Filhotes%20Frango-e-Arroz%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="must-produtos" id="must-pd">
+
+                <div class="slider">
+
+                    <div class="card">
+                        <div class="like" id="likemust"></div>
+                        <img class="product" src="marcas/must/must-racas-pequenas.jpg" alt="">
+                        <h4 class="title">Ração Seca Must Premium Especial para Cães Adultos Raças Pequenas 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 180,00</h5>
+                        <h5 >R$ 172,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Must%20%20Adulto%20Raças-Pequenas%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likemust2"></div>
+                        <img class="product" src="marcas/must/must-medias-e-grandes.jpg" alt="">
+                        <h4 class="title">Ração Seca Must Premium Especial para Cães Adultos Raças Médias e Grandes 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 175,00</h5>
+                        <h5 >R$ 168,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Must%20Adulto%20Raças-Medias-e-Grandes%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likemust3"></div>
+                        <img class="product" src="marcas/must/must-filhote.jpg" alt="">
+                        <h4 class="title">Ração Seca Must Premium Especial para Cães Filhotes Raças Médias e Grandes 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 195,00</h5>
+                        <h5 >R$ 188,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Must%20Filhotes%20Raças-Medias-e-Grandes%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likemust4"></div>
+                        <img class="product" src="marcas/must/must-special.jpg" alt="">
+                        <h4 class="title">Ração Must Special Cães Adulto Medios e Grandes Frango e Carne 15kg <br><span style="color: #e86b2700;">.</span></h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 150,00</h5>
+                        <h5 >R$ 141,90</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Must%20Special%20Raças-Medias-e-Grandes%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likemust5"></div>
+                        <img class="product" src="marcas/must/must-gatos-filhotes.jpg" alt="">
+                        <h4 class="title">Ração Must Gatos Pequenos Filhotes Premium Especial <br> 10kg <br><span style="color: #e86b2700;">.</span></h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 175,00</h5>
+                        <h5 >R$ 163,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Must%20Gatos%20Filhotes%20%2010kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tutano-produtos" id="tutano-pd">
+                
+                <div class="slider">
+
+                    <div class="card">
+                        <div class="like" id="liketutano2"></div>
+                        <img class="product" src="marcas/tutano/tutano-melhor-idade.jpg" alt="">
+                        <h4 class="title">Ração Tutano Melhor Idade para Cães Sênior Sabor Frango <br> 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 185,00</h5>
+                        <h5 >R$ 170,80</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Tutano-melhor-idade%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+
+
+
+                    <div class="card">
+                        <div class="like" id="liketutano"></div>
+                        <img class="product" src="marcas/tutano/tutano-adulto-carne.jpg" alt="">
+                        <h4 class="title">Ração Tutano para Cães Adultos de Porte Médio e Grande Sabor Carne 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 170,00</h5>
+                        <h5 >R$ 159,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Tutano%20Adulto%20Raças-Medias-e-Grandes%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    
+            
+                    <div class="card">
+                        <div class="like" id="liketutano3"></div>
+                        <img class="product" src="marcas/tutano/tutano-adulto-racas-pequenas.jpg" alt="">
+                        <h4 class="title">Ração Tutano para Cães Adultos de Porte Pequeno Sabor Frango <br> 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 170,00</h5>
+                        <h5 >R$ 159,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Tutano%20Adulto%20Raças-Pequenas%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="liketutano4"></div>
+                        <img class="product" src="marcas/tutano/tutano-especial.jpg" alt="">
+                        <h4 class="title">Ração Tutano Especial para Cães Adultos Sabor Carne e Frango <br> 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 165,00</h5>
+                        <h5 >R$ 151,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Tutano%20Especial%20Adultos%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="liketutano5"></div>
+                        <img class="product" src="marcas/tutano/tutano-filhote.jpg" alt="">
+                        <h4 class="title">Ração Tutano para Cães Filhotes de Porte Médio e Grande Sabor Frango 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9734;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 180,00</h5>
+                        <h5 >R$ 168,00</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Tutano-Filhote%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="quatree-produtos" id="quatree-pd">
+
+                <div class="slider">
+
+                    <div class="card">
+                        <div class="like" id="likequatree"></div>
+                        <img class="product" src="marcas/quatree/quatree-supreme-cao-senior.jpg" alt="">
+                        <h4 class="title">Ração Quatree Supreme para Cães Sênior+7 de Porte Pequeno Sabor Salmão e Frango <br> 1kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 50,00</h5>
+                        <h5 >R$ 28,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Quatree%20Supreme%20-Sénior-Mais7anos%20Porte-pequeno%20Salmão-e-frango1kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likequatree2"></div>
+                        <img class="product" src="marcas/quatree/quatree-supreme-filhote.jpg" alt="">
+                        <h4 class="title">Ração Quatree Supreme para Cães Filhotes de Porte Pequeno Sabor Frango e Batata Doce 1kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 40,00</h5>
+                        <h5 >R$ 27,70</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Quatree%20Supreme%20Filhote%20Porte-pequeno%201kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likequatree3"></div>
+                        <img class="product" src="marcas/quatree/quatree-supreme-adulto-racas-pequenas.jpg" alt="">
+                        <h4 class="title">Ração Seca Quatree Supreme Frango e Batata Doce Cães Adultos Raças Pequenas 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 240,00</h5>
+                        <h5 >R$ 224,00</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Quatree%20Supreme%20Adulto%20Porte-pequeno%20frango-e-bata-doce%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likequatree4"></div>
+                        <img class="product" src="marcas/quatree/quatree-supreme-adulto-racas.jpg" alt="">
+                        <h4 class="title">Ração Quatree Supreme para Cães Adultos de Porte Médio e Grande Sabor Frango e Batata Doce 15kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5 class="preco1">R$ 250,00</h5>
+                        <h5 >R$ 226,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Quatree%20Supreme%20Adulto%20Porte-Médio%2015kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+            
+                    <div class="card">
+                        <div class="like" id="likequatree5"></div>
+                        <img class="product" src="marcas/quatree/quatree-select-caes-adultos-racas-pequenas.jpg" alt="">
+                        <h4 class="title">Ração Seca Quatree Select Frango e Arroz Cães Adultos Raças Pequenas <br> 3kg</h4>
+                        <div class="stars">
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                            &#9733;
+                        </div>
+                        <div class="preco">
+                        <h5  class="preco1">R$ 65,00</h5>
+                        <h5>R$ 53,50</h5>
+                        </div>
+                        <a class="button" href="https://wa.me/5522998959626?text=%20Olá%20Gostaria%20de%20uma%20Quatree%20Select%20Frango-e-arroz%20Porte-pequeno%203kg" target="_blank">Adicionar ao Carrinho</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        
+        
+       
+    </main>
+
+    <section>
+        <div class="container-img-contato">
+            <h2 class="title-contato">Con <span title="title-contato2">tato</span></h2>
+            <div class="link-contato">
+                <div ><iframe class="link-maps-contato" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58966.7579191636!2d-42.03599484179687!3d-22.525845499999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b3bf4639c67f%3A0x1c7fc19e8cb56f48!2sHouse%20Pet!5e0!3m2!1spt-BR!2sbr!4v1669174347442!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="link-contatos-social">
+                <div><h3 class="unidade">
+                    Unidade Rio das Ostras
+                </h3></div>
+                
+                <div class="link-whatsapp-icon-contato"><img class="img-contato" src="logo-icos/logo-whatsapp.png" alt="whatsapp" width="60px" height="60px" >
+                    <a href="https://wa.me/5522998959626" target="_blank"><h3 class="text-centro">22 99895-9626</h3></a> <!---<img src="logo-icos/arrow-back-outline.svg" alt="" width="60px" height="60px" id="arrow"> --->
+                </div>
+
+                <div class="link-instagram-icon-contato"><img  class="img-contato" src="logo-icos/logo-instagram.png" alt="instagram" width=" 60px" height="60px">
+                <a href="https://www.instagram.com/house_petpetshop/" target="_blank"><h3 class="text-centro">house-petpetshop</h3></a></div>
+
+                <div class="link-maps-icon-contato"><img class="img-contato" src="logo-icos/logo-localizacao.png" alt="localização" width="60px" height="60px">
+                <a href="https://goo.gl/maps/AZfHMcHnmsEGBPwGA" target="_blank"><h3 class="text-centro">Rua Abel Siqueira N°53 - Recanto</h3></a></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="container-footer">
+
+            <div class="logo-footer" id="float">
+                <img class="img-logo-footer" src="logo-icos/logo-finalizada.png" alt="logo" width="300px">
+            </div>
+
+            <div class="especialidades-footer">
+                <h3 class="title-Especialidade-footer">Especialidades</h3>
+                <p class="title-racao-footer">Rações</p>
+                <p class="title-Acessórios-footer">Acessórios</p>
+                <p class="title-banho-e-tosa-footer">Banho e Tosa</p>
+                <p class="title-veterinario-footer">Veterinário</p>
+            </div>
+
+            <div class="categorias-footer">
+                <h3 class="title-categorias-footer">Categorias</h3>
+                <p class="title-racao-para-caes-e-gatos-footer">Ração para Cães e Gatos</p>
+                <p class="title-areia-para-gatos-footer">Areia para Gatos</p> 
+                <p class="title-tapete-higienico-footer">Tapete Higiênico</p>
+                <p class="title-antipulgas-e-carrapatos-footer">Antipulgas e Carrapatos</p>
+                <p class="title-osso-para-caes-footer">Osso para Cães</p>
+                <p class="title-casinha-de-caes-footer">Casinha para Cães</p>
+                <p class="coleira-para-gatos-footer">Coleira para Gatos</p>
+                <p class="alimento-natural">Alimento Natural </p>
+                <p class="vermifugos">Vermífugos</p>
+                <p class="caminha-para-caes-e-gatos">Caminha para Cães E Gatos</p>
+                <p class="arranhador-para-gatos">Arranhador para Gatos</p>
+                <p class="cercado-para-caes">Cercado para Cães</p>
+            </div>
+            
+            <div class="marcas-footer">
+                <h3 class="title-marcas-footer">Marcas</h3>
+                <p class="title-simparic-footer">Simparic</p>
+                <p class="title-nexgard-footer">Nexgard</p>
+                <p class="title-whiskas-foooter">Whiskas</p>
+                <p class="title-advocate-footer">Advocate</p>
+                <p class="title-frontline-footer">FrontLine</p>
+                <p class="title-pedigree-footer">Pedigree</p>
+                <p class="title-kats-footer">Kats</p>
+                <p class="title-quatree-footer">Quatree</p>
+ 
+            </div>
+
+            <div class="contatos-footer">
+                <div class="social-whatsapp-footer"><img class="whatsapp-width" src="logo-icos/logo-whatsapp.png" alt="whatsapp" width="55px"></div>
+                <div class="social-instagram-footer"><img class="instagram-width" src="logo-icos/logo-instagram.png" alt="instagram" width="55px"></div>
+                <div class="social-google-footer"><img class="google-width" src="logo-icos/logo-localizacao.png" alt="localização" width="60px"></div>
+                <div><button class="social-contato-button-footer">Contato</button></div>
+           
+            
+            <div class="pagamento-footer">
+                <h3 class="forma-pagamento-footer">Forma de Pagamento</h3>
+                <div class="bandeira-cartao-footer">
+                    <img class="img-bandeiras" src="logo-icos/mastercard.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/elo.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/visa.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/american-express.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/banri-compras.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/pix.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/hipercard.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/cabal.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/qr-code.png" alt="" width="40px">
+                </div> 
+
+                <div class="img-cartao-footer"><img class="img-cartao" src="logo-icos/cartao.png" alt="" width="200px"></div>
+
+            </div>
+
+            
+
+            <div class="developer-name-footer" id="float">
+                <h3 ><b>Website Developer:</b> Pablo Marcelo</h3>
+                <div><button class="social-contato-button-developer-footer">Contato</button></div>
+            </div>
+
+          
+           
+
+        </div>
+
+    </footer>
+    
+    <script src="javascript.js"></script>
+
+</div>
+</body>
+</html>

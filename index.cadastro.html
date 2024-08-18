@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.cadastro.js"></script>
+</head>
+<body>
+    <div class="body2">
+    <header>
+        <div class="container-header">
+
+        <div class="logo-header">
+            <abbr title="Pagina Principal"><a href="index.html"><img class="logo-img-hearder" src="logo-icos/logo-finalizada.png" alt="logo" width="200px"></a></abbr>
+        </div>
+
+        <div class="botoes-header">
+            <a href="index.cadastro.html"><button onclick="Cadastro()" class="but-cadastro-header">Cadastro</button></a>
+            <a href="index.contato.html"><button class="but-social-header">Contato</button></a>
+            <button class="but-quem-somos-header">Quem Somos</button>
+            
+        </div>
+
+    </header>
+
+    <hr>
+
+    <section>
+
+        <div class="container-section-pets">
+            <abbr title="Sessão para Cães"><div class="section-pet-cachorro"><a href="index.cachorro.html"><img src="logo-icos/cachorro-branco.png" alt="cachorro" width="80px"  onmouseover="onmouseoverDog()" onmouseout="onmouseoutDog()" id="pet-cachorro"></a></div></abbr>
+
+            <abbr title="Sessão para Gatos"><div class="section-pet-gato"><a href="index.gato.html"><img id="pet-gato" src="logo-icos/gato-branco.png" alt="cat" width="80px" onmouseover="onmouseoverCat()" onmouseout="onmouseoutCat()"></a></div></abbr>
+
+            <abbr title="Sessão para Passaros">
+                <div class="section-pet-peixe"><a href="index.passaro.html"><img id="pet-peixe" src="logo-icos/peixe-branco.png" alt="peixe" width="80px" onmouseover="onmouseoverFish()" onmouseout="onmouseoutFish()"></a></div>
+            </abbr>
+
+            <div class="section-pet-casa"><a href=""><img id="pet-casa" src="logo-icos/casa-branca.png" alt="casa" width="80px" onmouseover="onmouseoverHouse()" onmouseout="onmouseoutHouse()"></a></div>
+ 
+        </div>
+
+    </section>
+
+    <main>
+        <div class="formimg">
+        <div class="formcontainer">
+           
+            <form action="https://gmail.us18.list-manage.com/subscribe/post?u=9514d5282b5ed600c18d70e54&amp;id=302ad63105&amp;f_id=000926e7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                
+                <div>
+                    <input type="text" name="FNAME" id="nome" placeholder="Nome" class="inp-requerid" oninput="valiName()">
+                    <span class="spans-requerid">Nome deve conter no minino 3 caracteres</span>
+                </div>
+
+                <div>
+                     <input type="email" name="EMAIL"  placeholder="E-mail" class="inp-requerid" oninput="valiemail()">
+                     <span class="spans-requerid">Email Invalido</span>
+                </div>
+
+               <div>
+                <input type="tel" name="TELEFONE" placeholder="ddd + Telefone" class="inp-requerid" oninput="valitelefone()">
+                <span class="spans-requerid">Digite corretamente seu numero de telefone</span>
+               </div>
+
+                <div>
+                    <input type="number" name="CEP" placeholder="Cep 00000-000" class="inp-requerid" oninput="valicep()">
+                    <span class="spans-requerid">Cep Invalido</span>
+                </div>
+                
+               
+                <select name="CIDADE" class="select-requerid">
+                    <option value="">Cidade</option>
+                    <option value="Rio das Ostras">Rio Das Ostras</option>
+                    <option value="Barra de São joão">Barra de São joão</option>
+                    <option value="Unamar">Unamar</option>
+                    <option value="Macaé">Macaé</option>
+                </select>
+
+                <select name="BAIRRO" >
+                    <option value="">Bairro</option>
+                    <option value="ancora">Âncora</option>
+                    <option value="boca-da-Barra">Boca da Barra</option>
+                    <option value="bosque-da-praia">Bosque da Praia</option>
+                    <option value="balneario-remanso">Balneário Remanso</option>
+                    <option value="balneario-das-garcas">Balneário das Garças</option>
+                    <option value="bosque-da-areia-e-mar-y-lago">Bosque da Areia e MAr y Lago</option>
+                    <option value="centro">Centro</option>
+                    <option value="costas-azul"> Costa Azul</option>
+                    <option value="campomar">Campomar</option>
+                    <option value="chacara-mariléia">Chacara Mariléia</option>
+                    <option value="cidade-praiana">Cidade Praiana</option>
+                    <option value="canta-galo">Canta Galo</option>
+                    <option value="cantinho-do-mar">Cantinho do Mar</option>
+                    <option value="casa-grande">Casa-Grande</option>
+                    <option value="colinas-e-bosque-beira-rio">Colina do Bosque Beira Rio</option>
+                    <option value="cidade-beira-mar">Cidade beira Mar</option>
+                    <option value="extensao-do-bosque">Extensão do Bosque</option>
+                    <option value="enseada-das-gaevotas">Enseada das Gaivotas</option>
+                    <option value="extensa-novo-rio-das-ostras">Extensão Novo Rio das Ostras</option>
+                    <option value="extensao-serramar">Extensão Serramar</option>
+
+                    <option value="fazenda-palmeira">Fazenda Palmeiras</option>
+                    <option value="floresta-das-gaivotas">Floresta das Gaivotas</option>
+
+                    <option value="gelson-apicelo">Gelson Apicelo</option>
+
+                    <option value="marileia">Jardim Mariléia</option>
+                    <option value="jardim-bela-vista">Jardim Bela Vista</option>
+                    <option value="jardim-campomar">Jardim Campomar</option>
+                    <option value="jardim-patricia">Jardim Patrícia</option>
+
+                    <option value="liberdade">Liberdade</option>
+                    <option value="loteamento-atlantica">Loteamento Atlântica</option>
+
+                    <option value="mar-do-norte">Mar do Norte</option>
+
+                    <option value="nova-cidade">Nova Cidade</option>
+                    <option value="nova-esperança">Nova Esperança</option>
+                    <option value="nova-alianca">Nova Aliança</option>
+                    <option value="ouro-verde">Ouro Verde</option>
+                    <option value="parque-zabulao">Parque Zabulão</option>
+                    <option value="parque-sao-jorge">Parque São Jorge</option>
+                    <option value="porto-seguro">Porto Seguro</option>
+                    <option value="palmital">Palmital</option>
+                    <option value="praiamar">Praiamar</option>
+                    <option value="operario">Operário</option>
+                    <option value="peroba">Peroba</option>
+
+                    <option value="recreio">Recrêio</option>
+                    <option value="residencial-rio-das-ostras">Residencial Rio das Ostras</option>
+                    <option value="residencial-camping-do-bosque">Residencial Camping do Bosque</option>
+                    <option value="redidencial-praia-ancora">Residencial Praia Âncora</option>
+                    <option value="rocha-leao">Rocha Leão</option>
+                    <option value="residencial-maria-turri">Residencial Maria Turri</option>
+                    <option value="residencial-verdes-mares">Residencial Verde Mares</option>
+                    <option value="reduto-da-paz">Reduto da Paz</option>
+                    
+                    <option value="village">Village</option>
+                    <option value="vila-real">Vila-Real</option>
+                    <option value="vilage-sol-e-mar">Vilage Sol e Mar</option>
+                    <option value="vila-verde">Vila Verde</option>
+                    <option value="terra-firme">Terra Firme</option>
+                    option>
+                    
+                    <option value="serramar">Serramar</option>
+                    <option value="sobradinho/cerveja">Sobradinho/Cerveja</option>
+                    <option value="sao-cristovao">São Cristovão</option>
+    
+                    
+
+                    <option value="Campomar">Campomar</option>
+                    <option value="Campomar">Campomar</option>
+                    <option value="Campomar">Campomar</option>
+                </select>
+                <input type="text" name="ENDERECO" placeholder="Endereço">
+                <input type="text" name="REFERENCIA" placeholder="Referência">
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9514d5282b5ed600c18d70e54_302ad63105" tabindex="-1" value=""></div>
+                <input type="submit" id="button1" value="FINALIZAR ">
+            </form>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+
+        <div class="container-footer">
+
+            <div class="logo-footer" id="float">
+                <img class="img-logo-footer" src="logo-icos/logo-finalizada.png" alt="logo" width="300px">
+            </div>
+
+            <div class="especialidades-footer">
+                <h3 class="title-Especialidade-footer">Especialidades</h3>
+                <p class="title-racao-footer">Rações</p>
+                <p class="title-Acessórios-footer">Acessórios</p>
+                <p class="title-banho-e-tosa-footer">Banho e Tosa</p>
+                <p class="title-veterinario-footer">Veterinário</p>
+            </div>
+
+            <div class="categorias-footer">
+                <h3 class="title-categorias-footer">Categorias</h3>
+                <p class="title-racao-para-caes-e-gatos-footer">Ração para Cães e Gatos</p>
+                <p class="title-areia-para-gatos-footer">Areia para Gatos</p> 
+                <p class="title-tapete-higienico-footer">Tapete Higiênico</p>
+                <p class="title-antipulgas-e-carrapatos-footer">Antipulgas e Carrapatos</p>
+                <p class="title-osso-para-caes-footer">Osso para Cães</p>
+                <p class="title-casinha-de-caes-footer">Casinha para Cães</p>
+                <p class="coleira-para-gatos-footer">Coleira para Gatos</p>
+                <p class="alimento-natural">Alimento Natural </p>
+                <p class="vermifugos">Vermífugos</p>
+                <p class="caminha-para-caes-e-gatos">Caminha para Cães E Gatos</p>
+                <p class="arranhador-para-gatos">Arranhador para Gatos</p>
+                <p class="cercado-para-caes">Cercado para Cães</p>
+            </div>
+            
+            <div class="marcas-footer">
+                <h3 class="title-marcas-footer">Marcas</h3>
+                <p class="title-simparic-footer">Simparic</p>
+                <p class="title-nexgard-footer">Nexgard</p>
+                <p class="title-whiskas-foooter">Whiskas</p>
+                <p class="title-advocate-footer">Advocate</p>
+                <p class="title-frontline-footer">FrontLine</p>
+                <p class="title-pedigree-footer">Pedigree</p>
+                <p class="title-kats-footer">Kats</p>
+                <p class="title-quatree-footer">Quatree</p>
+ 
+            </div>
+
+            <div class="contatos-footer">
+                <div class="social-whatsapp-footer"><img class="whatsapp-width" src="logo-icos/logo-whatsapp.png" alt="whatsapp" width="55px"></div>
+                <div class="social-instagram-footer"><img class="instagram-width" src="logo-icos/logo-instagram.png" alt="instagram" width="55px"></div>
+                <div class="social-google-footer"><img class="google-width" src="logo-icos/logo-localizacao.png" alt="localização" width="60px"></div>
+                <div><button class="social-contato-button-footer">Contato</button></div>
+           
+            
+            <div class="pagamento-footer">
+                <h3 class="forma-pagamento-footer">Forma de Pagamento</h3>
+                <div class="bandeira-cartao-footer">
+                    <img class="img-bandeiras" src="logo-icos/mastercard.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/elo.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/visa.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/american-express.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/banri-compras.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/pix.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/hipercard.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/cabal.png" alt="" width="40px">
+                    <img class="img-bandeiras" src="logo-icos/qr-code.png" alt="" width="40px">
+                </div> 
+
+                <div class="img-cartao-footer"><img class="img-cartao" src="logo-icos/cartao.png" alt="" width="200px"></div>
+
+            </div>
+
+            
+
+            <div class="developer-name-footer" id="float">
+                <h3 ><b>Website Developer:</b> Pablo Marcelo</h3>
+                <div><button class="social-contato-button-developer-footer">Contato</button></div>
+            </div>
+
+          
+           
+
+        </div>
+
+    </footer>
+</div>
+
+
+</body>
+</html>
+
+
