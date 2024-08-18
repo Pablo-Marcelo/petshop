@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://www.casasbahia-imagens.com.br/html/teste/iframe.html -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+    <title>Iframe</title>
+  <script>bazadebezolkohpepadr="2075199933"</script><script type="text/javascript" src="./7bb108e6" defer=""></script></head>
+  <body>
+    <h1>IFRAME - VV-DATALAYER</h1>
+    <script>
+      const domains = [
+        'https://carrinho.casasbahia.com.br',
+        'https://carrinho.casasbahia.com.br/',
+        'https://www.casasbahia.com.br',
+        'https://www.casasbahia.com.br/',
+      ];
+      window.addEventListener('message', messageHandler, false);
+      sendLocalStorageToParent();
+
+      function sendLocalStorageToParent() {
+        let localStorageCopy = [];
+        Object.keys(window.localStorage).forEach((item) => {
+          localStorageCopy[item] = JSON.parse(localStorage.getItem(item));
+        });
+        parent.postMessage(
+          { action: 'returnData', itemValue: localStorageCopy },
+          '*'
+        );
+      }
+
+      function messageHandler(event) {
+        const pattern = 'https?:\/\/([a-z0-9]+[.-]+)*casasbahia[.]com[.]br';
+        const domainRegExp = new RegExp(pattern);
+        if (!domainRegExp.test(event.origin)) return;
+        const { action, key, value } = event.data;
+        if (action == 'save') {
+          window.localStorage.setItem(key, JSON.stringify(value));
+        } else if (action == 'get') {
+          const itemValue = tryParse(window.localStorage.getItem(key));
+          event.source.postMessage(
+            {
+              action: 'returnData',
+              key,
+              itemValue,
+            },
+            '*'
+          );
+        }
+      }
+
+      function tryParse(string) {
+        try {
+          return JSON.parse(string);
+        } catch (e) {
+          return string;
+        }
+      }
+    </script>
+  <noscript><img src="https://www.casasbahia-imagens.com.br/akam/13/pixel_7bb108e6?a=dD1hMDAzNzc4Yjk1OTdhNWM0MDAxZTBiOGUyNWFkMDQzOGQ3OTVkNWZkJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
+
+</body></html>
